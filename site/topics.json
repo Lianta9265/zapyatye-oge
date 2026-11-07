@@ -19,10 +19,18 @@
       "id": "vvodnye",
       "title": "Вводные",
       "path": "topics/vvodnye.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "honey",
-      "dataset": null,
-      "entry": null,
+      "caption": "80 карточек",
+      "dataset": "trainers/vvodnye/data.json",
+      "entry": "trainers/vvodnye/app.js",
+      "assets": [
+        "trainers/vvodnye/core.js",
+        "trainers/vvodnye/data.js",
+        "trainers/vvodnye/styles.css",
+        "VVODNYE-REPORT.md",
+        "VVODNYE-EDITORIAL-REPORT.md"
+      ],
       "progressKey": "zapyatye-oge:vvodnye:progress:v1",
       "journalKey": "zapyatye-oge:vvodnye:errors:v1"
     },

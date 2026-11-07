@@ -1,0 +1,32 @@
+/* Shared approved decoration is inherited. Only four-section layout is specific. */
+body[data-page="vvodnye"] .masthead{padding:6px 18px}
+body[data-page="vvodnye"] .page-heading{margin-top:0}
+body[data-page="vvodnye"] .control-panel{grid-template-columns:max-content max-content minmax(116px,160px)}
+body[data-page="vvodnye"] .section{gap:5px;padding-inline:9px}
+body[data-page="vvodnye"] .sentence .word{display:inline-block;max-width:100%;overflow-wrap:anywhere;word-break:normal;white-space:normal}
+body[data-page="vvodnye"] .results-grid{grid-template-columns:minmax(0,1fr)}
+body[data-page="vvodnye"] main{padding-top:24px}
+body[data-page="vvodnye"] .card,body[data-page="vvodnye"] .source-block{scroll-margin-top:var(--trainer-controls-height)}
+@media(max-width:1100px){
+body[data-page="vvodnye"] .control-panel{grid-template-columns:max-content 1fr;grid-template-areas:"home actions" "sections progress";width:max-content}
+body[data-page="vvodnye"] .panel-actions{gap:6px}
+body[data-page="vvodnye"] .panel-actions .button{padding-inline:9px}
+body[data-page="vvodnye"] .sections{gap:5px}
+}
+@media(max-width:900px){
+body[data-page="vvodnye"] .control-panel{grid-template-areas:"home actions" "sections sections" "progress progress";width:100%;max-width:650px}
+body[data-page="vvodnye"] .sections{display:grid;grid-template-columns:repeat(4,max-content);width:max-content;gap:5px}
+body[data-page="vvodnye"] .compact-progress{display:flex;gap:12px;max-width:none;align-items:center}
+body[data-page="vvodnye"] .compact-progress>div{white-space:nowrap;margin:0}
+body[data-page="vvodnye"] progress{flex:1}
+}
+@media(max-width:700px){
+body[data-page="vvodnye"] .masthead{padding:5px 13px}
+body[data-page="vvodnye"] .control-panel{max-width:480px}
+body[data-page="vvodnye"] .sections{grid-template-columns:repeat(2,max-content);gap:5px 8px}
+body[data-page="vvodnye"] .panel-actions .button{padding-inline:13px}
+body[data-page="vvodnye"] .toolbar .filters{flex-wrap:wrap}
+body[data-page="vvodnye"] .practice-guide{margin:16px 0;padding:12px 14px;gap:10px 16px}
+body[data-page="vvodnye"] .method-note{margin-bottom:20px}
+body[data-page="vvodnye"] .page-heading h1{margin-block:7px 12px}
+}
