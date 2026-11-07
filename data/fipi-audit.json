@@ -1,0 +1,3532 @@
+{
+  "auditedAt": "2026-11-07",
+  "projectUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+  "procedure": "Public filters_request POST with theme=7.26 and answer type, followed by the ordinary zero-based questions.php pager in the same cookie session. No answer submissions.",
+  "scope": "Task 4 correspondence and task 5 punctuation passages in the current official Russian OGE project. This audit compares identifiers and normalized source wording, not official answer keys.",
+  "normalization": "Comparison ignores punctuation, whitespace and soft hyphens, lowercases, folds ё to е and Latin accented á/é used by Word for Russian stress marks to Cyrillic а/е. Slot digits remain in task 5 comparisons.",
+  "results": [
+    {
+      "task": 4,
+      "kind": "ILI_EXT_ACCORD",
+      "formFields": {
+        "search": "1",
+        "pagesize": "10",
+        "proj": "2F5EE3B12FE2A0EA40B06BF61A015416",
+        "theme": "7.26",
+        "qkind": "ILI_EXT_ACCORD",
+        "qlevel": "",
+        "qsstruct": "",
+        "qpos": "",
+        "qid": "",
+        "zid": "",
+        "solved": "",
+        "favorite": "",
+        "blind": ""
+      },
+      "serverCount": 80,
+      "downloadedCount": 80,
+      "snapshots": [
+        {
+          "file": "data/raw/fipi-task4-page-01.html",
+          "url": "https://oge.fipi.ru/bank/questions.php",
+          "method": "POST",
+          "page": 1,
+          "count": 10,
+          "ids": [
+            "ABF846",
+            "91F143",
+            "3E6C4D",
+            "831D46",
+            "7DB7F5",
+            "AB97FC",
+            "4D6C0D",
+            "2AD105",
+            "DF8509",
+            "8B720C"
+          ],
+          "sha256": "21503010cddb890cdd3e16e4fc6d36aea0f3645b46b6d42bea146cfc8142fa59"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-02.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=1&pagesize=10",
+          "method": "GET",
+          "page": 2,
+          "count": 10,
+          "ids": [
+            "FE1D7F",
+            "125474",
+            "EE1A7D",
+            "35C276",
+            "A350B7",
+            "0AB21E",
+            "77FF1D",
+            "2B1812",
+            "95A51D",
+            "ECCE1D"
+          ],
+          "sha256": "734421078b8d20b61c1737375e10d620f313a6cf5f8c5f2fddeee459c0566f5e"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-03.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=2&pagesize=10",
+          "method": "GET",
+          "page": 3,
+          "count": 10,
+          "ids": [
+            "6A171A",
+            "F0BF23",
+            "1E702A",
+            "B741D0",
+            "19CADA",
+            "56E2D5",
+            "DDB35B",
+            "5B685F",
+            "515950",
+            "5D285A"
+          ],
+          "sha256": "bff47fc71c76f2926269c27cd78a484118347808b3b7e08dea961ce56a24efa9"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-04.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=3&pagesize=10",
+          "method": "GET",
+          "page": 4,
+          "count": 10,
+          "ids": [
+            "E10E5F",
+            "FA30A3",
+            "2D1EA9",
+            "2DA7A8",
+            "EEFDA3",
+            "F7B1CF",
+            "BF11C4",
+            "2690C0",
+            "A4B0CC",
+            "C3DCC9"
+          ],
+          "sha256": "c58c4375b7eae9d88a1319bf0ef669b2324326df681e9a030fa493f766bb9955"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-05.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=4&pagesize=10",
+          "method": "GET",
+          "page": 5,
+          "count": 10,
+          "ids": [
+            "3E37C0",
+            "3166C8",
+            "83C5CA",
+            "068595",
+            "B3C19E",
+            "12CE9F",
+            "E5E398",
+            "32BA9B",
+            "5736E3",
+            "9027E1"
+          ],
+          "sha256": "c5e7d5265dfb808c07dd53ae41f1bbead772129617d62b8e490b160cdb262a97"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-06.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=5&pagesize=10",
+          "method": "GET",
+          "page": 6,
+          "count": 10,
+          "ids": [
+            "F46B69",
+            "B28A6B",
+            "C68861",
+            "EDAA6A",
+            "8E196F",
+            "07DE3E",
+            "22198C",
+            "E97685",
+            "06134B",
+            "068B4E"
+          ],
+          "sha256": "1646c8e09138dccec664a2f89b85d8a4eea4d1a06eae4c88780ae3f57c23c3b9"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-07.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=6&pagesize=10",
+          "method": "GET",
+          "page": 7,
+          "count": 10,
+          "ids": [
+            "213749",
+            "D16749",
+            "665CF4",
+            "F31B0C",
+            "F29B08",
+            "0AA97B",
+            "6CBCB9",
+            "AB6614",
+            "B244DC",
+            "F61253"
+          ],
+          "sha256": "b3f7f007c0ad0cce14490a17ee4cf0b0e8429792ad765b80165b001ecdf714b4"
+        },
+        {
+          "file": "data/raw/fipi-task4-page-08.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=7&pagesize=10",
+          "method": "GET",
+          "page": 8,
+          "count": 10,
+          "ids": [
+            "087D5C",
+            "E963CB",
+            "DDC89D",
+            "5E6496",
+            "0684E7",
+            "136FE2",
+            "4CF966",
+            "B6A564",
+            "75C83D",
+            "E1B68A"
+          ],
+          "sha256": "ec9e716526e9b14304c3d0e10c6680177572a417251404751a69f2875b098de3"
+        }
+      ],
+      "sdamgiaCount": 80,
+      "matchingIds": [
+        "06134B",
+        "0684E7",
+        "068595",
+        "068B4E",
+        "07DE3E",
+        "087D5C",
+        "0AA97B",
+        "0AB21E",
+        "125474",
+        "12CE9F",
+        "136FE2",
+        "19CADA",
+        "1E702A",
+        "213749",
+        "22198C",
+        "2690C0",
+        "2AD105",
+        "2B1812",
+        "2D1EA9",
+        "2DA7A8",
+        "3166C8",
+        "32BA9B",
+        "35C276",
+        "3E37C0",
+        "3E6C4D",
+        "4CF966",
+        "4D6C0D",
+        "515950",
+        "56E2D5",
+        "5736E3",
+        "5B685F",
+        "5D285A",
+        "5E6496",
+        "665CF4",
+        "6A171A",
+        "6CBCB9",
+        "75C83D",
+        "77FF1D",
+        "7DB7F5",
+        "831D46",
+        "83C5CA",
+        "8B720C",
+        "8E196F",
+        "9027E1",
+        "91F143",
+        "95A51D",
+        "A350B7",
+        "A4B0CC",
+        "AB6614",
+        "AB97FC",
+        "ABF846",
+        "B244DC",
+        "B28A6B",
+        "B3C19E",
+        "B6A564",
+        "B741D0",
+        "BF11C4",
+        "C3DCC9",
+        "C68861",
+        "D16749",
+        "DDB35B",
+        "DDC89D",
+        "DF8509",
+        "E10E5F",
+        "E1B68A",
+        "E5E398",
+        "E963CB",
+        "E97685",
+        "ECCE1D",
+        "EDAA6A",
+        "EE1A7D",
+        "EEFDA3",
+        "F0BF23",
+        "F29B08",
+        "F31B0C",
+        "F46B69",
+        "F61253",
+        "F7B1CF",
+        "FA30A3",
+        "FE1D7F"
+      ],
+      "officialIdsMissingFromMirror": [],
+      "mirrorIdsMissingFromOfficial": [],
+      "textChecks": [
+        {
+          "fipiId": "8B720C",
+          "sdamgiaId": "38076",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "ABF846",
+          "sdamgiaId": "38083",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "91F143",
+          "sdamgiaId": "38088",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "3E6C4D",
+          "sdamgiaId": "38089",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "831D46",
+          "sdamgiaId": "38090",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "7DB7F5",
+          "sdamgiaId": "38091",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "AB97FC",
+          "sdamgiaId": "38092",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "4D6C0D",
+          "sdamgiaId": "38093",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "2AD105",
+          "sdamgiaId": "38094",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "DF8509",
+          "sdamgiaId": "38105",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "FE1D7F",
+          "sdamgiaId": "38106",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "125474",
+          "sdamgiaId": "38107",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "EE1A7D",
+          "sdamgiaId": "38108",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "35C276",
+          "sdamgiaId": "38109",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "A350B7",
+          "sdamgiaId": "38145",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "0AB21E",
+          "sdamgiaId": "38146",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "77FF1D",
+          "sdamgiaId": "38147",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "2B1812",
+          "sdamgiaId": "38148",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "95A51D",
+          "sdamgiaId": "38149",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "ECCE1D",
+          "sdamgiaId": "38150",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "6A171A",
+          "sdamgiaId": "38231",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "F0BF23",
+          "sdamgiaId": "38232",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "1E702A",
+          "sdamgiaId": "38241",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "B741D0",
+          "sdamgiaId": "38242",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "B244DC",
+          "sdamgiaId": "38243",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "19CADA",
+          "sdamgiaId": "38244",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "56E2D5",
+          "sdamgiaId": "38245",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "087D5C",
+          "sdamgiaId": "38246",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "DDB35B",
+          "sdamgiaId": "38247",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "5B685F",
+          "sdamgiaId": "38249",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "515950",
+          "sdamgiaId": "38251",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "5D285A",
+          "sdamgiaId": "38252",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "E10E5F",
+          "sdamgiaId": "38253",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "FA30A3",
+          "sdamgiaId": "38254",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "2D1EA9",
+          "sdamgiaId": "38255",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "2DA7A8",
+          "sdamgiaId": "38328",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "EEFDA3",
+          "sdamgiaId": "38329",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "F7B1CF",
+          "sdamgiaId": "38330",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "BF11C4",
+          "sdamgiaId": "38331",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "2690C0",
+          "sdamgiaId": "38332",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "A4B0CC",
+          "sdamgiaId": "38333",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "C3DCC9",
+          "sdamgiaId": "38334",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "3E37C0",
+          "sdamgiaId": "38335",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "3166C8",
+          "sdamgiaId": "38336",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "83C5CA",
+          "sdamgiaId": "38337",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "068595",
+          "sdamgiaId": "38338",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "B3C19E",
+          "sdamgiaId": "38339",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "12CE9F",
+          "sdamgiaId": "38340",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "E5E398",
+          "sdamgiaId": "38341",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "32BA9B",
+          "sdamgiaId": "38342",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "5736E3",
+          "sdamgiaId": "38343",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "9027E1",
+          "sdamgiaId": "38344",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "F46B69",
+          "sdamgiaId": "38345",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "B28A6B",
+          "sdamgiaId": "38346",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "C68861",
+          "sdamgiaId": "38347",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "EDAA6A",
+          "sdamgiaId": "38348",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "8E196F",
+          "sdamgiaId": "38349",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "07DE3E",
+          "sdamgiaId": "38350",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "22198C",
+          "sdamgiaId": "38351",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "E97685",
+          "sdamgiaId": "38352",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "06134B",
+          "sdamgiaId": "43419",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "068B4E",
+          "sdamgiaId": "43420",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "213749",
+          "sdamgiaId": "43421",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "D16749",
+          "sdamgiaId": "43422",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "665CF4",
+          "sdamgiaId": "43423",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "F31B0C",
+          "sdamgiaId": "43424",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "F29B08",
+          "sdamgiaId": "43425",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "0AA97B",
+          "sdamgiaId": "43426",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "6CBCB9",
+          "sdamgiaId": "43427",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            false,
+            true
+          ]
+        },
+        {
+          "fipiId": "AB6614",
+          "sdamgiaId": "43428",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "F61253",
+          "sdamgiaId": "43429",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "E963CB",
+          "sdamgiaId": "43430",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "DDC89D",
+          "sdamgiaId": "43437",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "5E6496",
+          "sdamgiaId": "43438",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "0684E7",
+          "sdamgiaId": "43439",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "136FE2",
+          "sdamgiaId": "43440",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "4CF966",
+          "sdamgiaId": "43441",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "B6A564",
+          "sdamgiaId": "43442",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "75C83D",
+          "sdamgiaId": "43443",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "fipiId": "E1B68A",
+          "sdamgiaId": "43444",
+          "passageCount": 5,
+          "normalizedTextMatches": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "normalizedRuleMatches": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "mapping": {
+        "38076": {
+          "fipiId": "8B720C",
+          "officialId": "2FA346742F75831540D1C3A3E7F608F4",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38083": {
+          "fipiId": "ABF846",
+          "officialId": "09D14FDF8BA9B3ED402F51B3CB31CB07",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38088": {
+          "fipiId": "91F143",
+          "officialId": "0BE155A60DA0A8E14B3D7D781140BB3F",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38089": {
+          "fipiId": "3E6C4D",
+          "officialId": "0E7DCAD2ABFBBD81487B930250DBE974",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38090": {
+          "fipiId": "831D46",
+          "officialId": "0FD5E757C5A29620440F2A1D071818BA",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38091": {
+          "fipiId": "7DB7F5",
+          "officialId": "138473AA22E4AFA042E1892777CE405C",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38092": {
+          "fipiId": "AB97FC",
+          "officialId": "19AB4355ECC6AE1E4872B7C9D9387659",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38093": {
+          "fipiId": "4D6C0D",
+          "officialId": "207D7A44E883988742EE02D37AC837DF",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38094": {
+          "fipiId": "2AD105",
+          "officialId": "268795DCC3C4BEB7473128DD284A6DC1",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38105": {
+          "fipiId": "DF8509",
+          "officialId": "27BF184542B692EC41C228E76C798701",
+          "snapshot": "data/raw/fipi-task4-page-01.html",
+          "matches": true
+        },
+        "38106": {
+          "fipiId": "FE1D7F",
+          "officialId": "3115C77E2D628FB340C35C8338CAFF6C",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38107": {
+          "fipiId": "125474",
+          "officialId": "3508609D1ADBB11442C56F98AE56E087",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38108": {
+          "fipiId": "EE1A7D",
+          "officialId": "3C75C968BC64A8BA4BE3E20AAFF7083C",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38109": {
+          "fipiId": "35C276",
+          "officialId": "3EDA8637D198A53B4312C084715A3531",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38145": {
+          "fipiId": "A350B7",
+          "officialId": "4938E27466F8A77A404B67F6431ADD50",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38146": {
+          "fipiId": "0AB21E",
+          "officialId": "52C496B8553399504BF695576759B54A",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38147": {
+          "fipiId": "77FF1D",
+          "officialId": "53713151BF6B8BF244E40A9404EC069A",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38148": {
+          "fipiId": "2B1812",
+          "officialId": "56654F7FDFCE8A2B4CCBA23464B2331E",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": false
+        },
+        "38149": {
+          "fipiId": "95A51D",
+          "officialId": "5B7988003692A3EB4B3E819BE30697C1",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38150": {
+          "fipiId": "ECCE1D",
+          "officialId": "5C7AAC006F499833447CAEC04473F0C7",
+          "snapshot": "data/raw/fipi-task4-page-02.html",
+          "matches": true
+        },
+        "38231": {
+          "fipiId": "6A171A",
+          "officialId": "5D95932DBF0EAB57420DC62138231EDE",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38232": {
+          "fipiId": "F0BF23",
+          "officialId": "61E4215278D19A804CA2B2C416CF52D7",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38241": {
+          "fipiId": "1E702A",
+          "officialId": "6593C25CD07BB8754BF87D421176287A",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38242": {
+          "fipiId": "B741D0",
+          "officialId": "742035CE5067ADFB4D4130C5B1AC72AA",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": false
+        },
+        "38243": {
+          "fipiId": "B244DC",
+          "officialId": "74A06059F03A8E9E4FF98DA417C3ECBE",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "38244": {
+          "fipiId": "19CADA",
+          "officialId": "759AB9AAC191964749167E90A4555D22",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38245": {
+          "fipiId": "56E2D5",
+          "officialId": "788CD6A79B158C264F4E88EE18CEF85B",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38246": {
+          "fipiId": "087D5C",
+          "officialId": "82A3F71054D2B0C444E2D94882BBFF4C",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "38247": {
+          "fipiId": "DDB35B",
+          "officialId": "87447E04550EB28D4B107EEFDF37A64D",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38249": {
+          "fipiId": "5B685F",
+          "officialId": "881D4F782C169745483C3FCB6C91E356",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38251": {
+          "fipiId": "515950",
+          "officialId": "88285B39A4569E8140A8E9FDF32A8AFD",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38252": {
+          "fipiId": "5D285A",
+          "officialId": "88967F5E25F9ADD9408F69A9A3181E97",
+          "snapshot": "data/raw/fipi-task4-page-03.html",
+          "matches": true
+        },
+        "38253": {
+          "fipiId": "E10E5F",
+          "officialId": "8C125C2750E08DA04F9DE93FFC3B25D8",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38254": {
+          "fipiId": "FA30A3",
+          "officialId": "91EE925A86FF907448244F55F72C416E",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38255": {
+          "fipiId": "2D1EA9",
+          "officialId": "96B57C06C7D785B14DC90BF247897CF3",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38328": {
+          "fipiId": "2DA7A8",
+          "officialId": "96F973E2DEAF883E428F34BA1378D2C2",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": false
+        },
+        "38329": {
+          "fipiId": "EEFDA3",
+          "officialId": "9CE1C7D6A05DA8C848D934315A19564B",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38330": {
+          "fipiId": "F7B1CF",
+          "officialId": "A11435017910A9D44F3FC894D0186D23",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38331": {
+          "fipiId": "BF11C4",
+          "officialId": "A40515AF7AFC85B247872F3D991F62D9",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38332": {
+          "fipiId": "2690C0",
+          "officialId": "A62BD2900F79B3EA49FFC1D24409E06B",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38333": {
+          "fipiId": "A4B0CC",
+          "officialId": "A9A402F5072EBB8D4B5B0392E369AA21",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38334": {
+          "fipiId": "C3DCC9",
+          "officialId": "AAB7EA75E55D89744B182B8D7E6E35AF",
+          "snapshot": "data/raw/fipi-task4-page-04.html",
+          "matches": true
+        },
+        "38335": {
+          "fipiId": "3E37C0",
+          "officialId": "AE2EC3850A65B95E41276F3F465BA37C",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38336": {
+          "fipiId": "3166C8",
+          "officialId": "AEFD5DDBD248B7704E077107683D2093",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38337": {
+          "fipiId": "83C5CA",
+          "officialId": "AF9AE8529D7F9BE3400DDC302C7BAC8B",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38338": {
+          "fipiId": "068595",
+          "officialId": "B28FD81FC84B902A46F764C7DFE3E505",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38339": {
+          "fipiId": "B3C19E",
+          "officialId": "B4CAE59E3B01878B43B1BF717D94FB18",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38340": {
+          "fipiId": "12CE9F",
+          "officialId": "B51A6C5B0D47A38549081A3225836A91",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38341": {
+          "fipiId": "E5E398",
+          "officialId": "BCFC8EA69D5A9A0B4FB35D829974DBE1",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38342": {
+          "fipiId": "32BA9B",
+          "officialId": "BE44697DE1CDA09A43A75B841E3093F4",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38343": {
+          "fipiId": "5736E3",
+          "officialId": "C8EE3DE1268E8D2945823FF4A1C83624",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38344": {
+          "fipiId": "9027E1",
+          "officialId": "CB56231E2D72B85946D90411AD5026C7",
+          "snapshot": "data/raw/fipi-task4-page-05.html",
+          "matches": true
+        },
+        "38345": {
+          "fipiId": "F46B69",
+          "officialId": "D1BD04208A6CBD9B4A497804267D711F",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "38346": {
+          "fipiId": "B28A6B",
+          "officialId": "D44F69AD1F5FB38B459932230F4F2D5D",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": false
+        },
+        "38347": {
+          "fipiId": "C68861",
+          "officialId": "DA5FDF072BF9A9C740C51751FFDF4153",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "38348": {
+          "fipiId": "EDAA6A",
+          "officialId": "DC9979851210A1FC4108A978331C6AB5",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "38349": {
+          "fipiId": "8E196F",
+          "officialId": "DF15CB90D7E789FB429A0BE5EE107C71",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "38350": {
+          "fipiId": "07DE3E",
+          "officialId": "E2C73C564299AEC442BE8477D0C6F98F",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "38351": {
+          "fipiId": "22198C",
+          "officialId": "F6A56BA1CDFBADC242351CB7FBF392FC",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "38352": {
+          "fipiId": "E97685",
+          "officialId": "FC83BD8832559AD0491B9F3A9B0AB452",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "43419": {
+          "fipiId": "06134B",
+          "officialId": "0245DE7AF8F8A6504AD5EB8AA5558ECD",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "43420": {
+          "fipiId": "068B4E",
+          "officialId": "02CFD458522B9495481DAB4E1E49EF03",
+          "snapshot": "data/raw/fipi-task4-page-06.html",
+          "matches": true
+        },
+        "43421": {
+          "fipiId": "213749",
+          "officialId": "06BE53DF3107B5894C84F25D8EC181B1",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43422": {
+          "fipiId": "D16749",
+          "officialId": "07BD53F01E618F584FBE147AAFC4420F",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43423": {
+          "fipiId": "665CF4",
+          "officialId": "1D08DA5D112AB43D442D68DF65210172",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43424": {
+          "fipiId": "F31B0C",
+          "officialId": "21A5E49D937BB18542310DEF0084DE59",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43425": {
+          "fipiId": "F29B08",
+          "officialId": "21FB647BFA3F8E904592B14497D5A2E9",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43426": {
+          "fipiId": "0AA97B",
+          "officialId": "32499B7D79FFBDED4DBBF8F6B9ED5188",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43427": {
+          "fipiId": "6CBCB9",
+          "officialId": "4DB4AA86DEA7A4594BCC233B09CAF8CF",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": false
+        },
+        "43428": {
+          "fipiId": "AB6614",
+          "officialId": "590D4D403F73870E4D1DC92575616A1D",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43429": {
+          "fipiId": "F61253",
+          "officialId": "81E5D627EA12A67646B6CB24141E008A",
+          "snapshot": "data/raw/fipi-task4-page-07.html",
+          "matches": true
+        },
+        "43430": {
+          "fipiId": "E963CB",
+          "officialId": "AC4DBEE1CBD4BFF941246FBF107FB0E5",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43437": {
+          "fipiId": "DDC89D",
+          "officialId": "B77A7FD25D08854041FDC63649D440DF",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43438": {
+          "fipiId": "5E6496",
+          "officialId": "B8DDC0F40D8D84EA44824A827A14DE97",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43439": {
+          "fipiId": "0684E7",
+          "officialId": "C23FD06CCDE2856D447E6E31466CB6C0",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43440": {
+          "fipiId": "136FE2",
+          "officialId": "C56DE102F40AA754493643481DDC3778",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43441": {
+          "fipiId": "4CF966",
+          "officialId": "D0D1ABB07997A4234A4A85A59124604B",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43442": {
+          "fipiId": "B6A564",
+          "officialId": "D409D87B945AA1CD42012DD445CE269F",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43443": {
+          "fipiId": "75C83D",
+          "officialId": "E37A8F2A343B84924E1362E46EC678BE",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        },
+        "43444": {
+          "fipiId": "E1B68A",
+          "officialId": "FC945D8720ACB2DA4BB02E3CAF3948A2",
+          "snapshot": "data/raw/fipi-task4-page-08.html",
+          "matches": true
+        }
+      },
+      "differences": [
+        {
+          "variantId": "38148",
+          "field": "sentence4",
+          "mirror": "Альберт Энштейн",
+          "official": "Альберт Эйнштейн"
+        },
+        {
+          "variantId": "38242",
+          "field": "ruleA",
+          "mirror": "обозначает причину",
+          "official": "указывает на причину"
+        },
+        {
+          "variantId": "38328",
+          "field": "sentence5",
+          "mirror": "на 10 процентов",
+          "official": "на 10 %"
+        },
+        {
+          "variantId": "38346",
+          "field": "sentence3",
+          "mirror": "в полу",
+          "official": "в поле"
+        },
+        {
+          "variantId": "43427",
+          "field": "ruleB",
+          "mirror": "определения, стоящие после определяемого слова, обособляется",
+          "official": "определения, стоящие после определяемого слова, обособляются"
+        }
+      ],
+      "allTextsMatchAfterTypographyNormalization": false,
+      "officialSppRuleTaskIds": [
+        "068595",
+        "087D5C",
+        "1E702A",
+        "32BA9B",
+        "3E6C4D",
+        "4CF966",
+        "83C5CA",
+        "8B720C",
+        "B244DC",
+        "DDB35B",
+        "DDC89D",
+        "F0BF23",
+        "F46B69",
+        "F7B1CF"
+      ],
+      "officialSppRuleTaskCount": 14
+    },
+    {
+      "task": 5,
+      "kind": "ILI_STD_SHORT",
+      "formFields": {
+        "search": "1",
+        "pagesize": "10",
+        "proj": "2F5EE3B12FE2A0EA40B06BF61A015416",
+        "theme": "7.26",
+        "qkind": "ILI_STD_SHORT",
+        "qlevel": "",
+        "qsstruct": "",
+        "qpos": "",
+        "qid": "",
+        "zid": "",
+        "solved": "",
+        "favorite": "",
+        "blind": ""
+      },
+      "serverCount": 76,
+      "downloadedCount": 76,
+      "snapshots": [
+        {
+          "file": "data/raw/fipi-task5-page-01.html",
+          "url": "https://oge.fipi.ru/bank/questions.php",
+          "method": "POST",
+          "page": 1,
+          "count": 10,
+          "ids": [
+            "4E4044",
+            "4E8948",
+            "123B46",
+            "679445",
+            "A427FB",
+            "A860F6",
+            "E47CF9",
+            "B12908",
+            "57680A",
+            "48A97F"
+          ],
+          "sha256": "b436e5627acc3067b77ba10edf713c468ca9408d8370ff8b8b442bd29508951c"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-02.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=1&pagesize=10",
+          "method": "GET",
+          "page": 2,
+          "count": 10,
+          "ids": [
+            "B2697F",
+            "A7A870",
+            "9ECF78",
+            "E3E073",
+            "31A878",
+            "1BADB6",
+            "C7F2B6",
+            "9F1FB0",
+            "7C8E12",
+            "D5C915"
+          ],
+          "sha256": "de4897b1486b29cec94aee72e364a8b717521297b08cf903c55793d50ba2842e"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-03.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=2&pagesize=10",
+          "method": "GET",
+          "page": 3,
+          "count": 10,
+          "ids": [
+            "8ECA1A",
+            "BF8B20",
+            "525C2B",
+            "C85929",
+            "684A20",
+            "68BC21",
+            "35312A",
+            "FFD9D6",
+            "7157DC",
+            "67A7D4"
+          ],
+          "sha256": "f03bf84eb9a93db2fcaadf52c7157cf77ecd48496a3a1bf098de3dbdd3947118"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-04.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=3&pagesize=10",
+          "method": "GET",
+          "page": 4,
+          "count": 10,
+          "ids": [
+            "6A56DC",
+            "2B3453",
+            "D90352",
+            "D38C5A",
+            "3BF556",
+            "8C305F",
+            "76D2A4",
+            "BF33A4",
+            "BD2AA5",
+            "190EAC"
+          ],
+          "sha256": "59d2eaa6dc5bdcb4713c761cdfc6f222bcccfa7ba5570490712a9c455705398f"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-05.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=4&pagesize=10",
+          "method": "GET",
+          "page": 5,
+          "count": 10,
+          "ids": [
+            "C9D2AC",
+            "3B5CA0",
+            "F38C95",
+            "5F4293",
+            "6D7D9D",
+            "36C19D",
+            "CE10EC",
+            "C41AE9",
+            "8BADED",
+            "5FC561"
+          ],
+          "sha256": "2688d6912e02f62b00ba18c2e5a56a1c773e05638dbd08112aee732604a8d733"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-06.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=5&pagesize=10",
+          "method": "GET",
+          "page": 6,
+          "count": 10,
+          "ids": [
+            "A0A630",
+            "C1733B",
+            "5FDD8E",
+            "A70F86",
+            "22DB42",
+            "BB9DFE",
+            "E7D1FF",
+            "67FFF2",
+            "D43B0B",
+            "DC8C0B"
+          ],
+          "sha256": "9d441f650d02e678efc958a7f216dc6429d0a64e14e96cb871f9421dce1051b7"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-07.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=6&pagesize=10",
+          "method": "GET",
+          "page": 7,
+          "count": 10,
+          "ids": [
+            "F18FB4",
+            "D1DAB4",
+            "67D7B0",
+            "CE9D15",
+            "363C10",
+            "40F7D2",
+            "1654D9",
+            "3DC65A",
+            "39BCA6",
+            "34D890"
+          ],
+          "sha256": "8db1c390ce6edffa20da01bf9dda474f4f0e8e26f66ca02e54531f39f8efc125"
+        },
+        {
+          "file": "data/raw/fipi-task5-page-08.html",
+          "url": "https://oge.fipi.ru/bank/questions.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416&page=7&pagesize=10",
+          "method": "GET",
+          "page": 8,
+          "count": 6,
+          "ids": [
+            "FEE6EB",
+            "06E8E5",
+            "40966C",
+            "6CF163",
+            "811839",
+            "375583"
+          ],
+          "sha256": "2dda42f23dc86abd7dc9eebf6410dbdf98980f83907a4d83029a0c790ab70b86"
+        }
+      ],
+      "sdamgiaCount": 76,
+      "matchingIds": [
+        "06E8E5",
+        "123B46",
+        "1654D9",
+        "190EAC",
+        "1BADB6",
+        "22DB42",
+        "2B3453",
+        "31A878",
+        "34D890",
+        "35312A",
+        "363C10",
+        "36C19D",
+        "375583",
+        "39BCA6",
+        "3B5CA0",
+        "3BF556",
+        "3DC65A",
+        "40966C",
+        "40F7D2",
+        "48A97F",
+        "4E4044",
+        "4E8948",
+        "525C2B",
+        "57680A",
+        "5F4293",
+        "5FC561",
+        "5FDD8E",
+        "679445",
+        "67A7D4",
+        "67D7B0",
+        "67FFF2",
+        "684A20",
+        "68BC21",
+        "6A56DC",
+        "6CF163",
+        "6D7D9D",
+        "7157DC",
+        "76D2A4",
+        "7C8E12",
+        "811839",
+        "8BADED",
+        "8C305F",
+        "8ECA1A",
+        "9ECF78",
+        "9F1FB0",
+        "A0A630",
+        "A427FB",
+        "A70F86",
+        "A7A870",
+        "A860F6",
+        "B12908",
+        "B2697F",
+        "BB9DFE",
+        "BD2AA5",
+        "BF33A4",
+        "BF8B20",
+        "C1733B",
+        "C41AE9",
+        "C7F2B6",
+        "C85929",
+        "C9D2AC",
+        "CE10EC",
+        "CE9D15",
+        "D1DAB4",
+        "D38C5A",
+        "D43B0B",
+        "D5C915",
+        "D90352",
+        "DC8C0B",
+        "E3E073",
+        "E47CF9",
+        "E7D1FF",
+        "F18FB4",
+        "F38C95",
+        "FEE6EB",
+        "FFD9D6"
+      ],
+      "officialIdsMissingFromMirror": [],
+      "mirrorIdsMissingFromOfficial": [],
+      "textChecks": [
+        {
+          "fipiId": "9F1FB0",
+          "sdamgiaId": "21295",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "D38C5A",
+          "sdamgiaId": "21307",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "4E8948",
+          "sdamgiaId": "27589",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "679445",
+          "sdamgiaId": "27645",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "A427FB",
+          "sdamgiaId": "27701",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "4E4044",
+          "sdamgiaId": "27704",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "B12908",
+          "sdamgiaId": "27723",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "57680A",
+          "sdamgiaId": "27793",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "5FC561",
+          "sdamgiaId": "27819",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "1654D9",
+          "sdamgiaId": "27885",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "9ECF78",
+          "sdamgiaId": "27902",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "E3E073",
+          "sdamgiaId": "27905",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "68BC21",
+          "sdamgiaId": "27909",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "1BADB6",
+          "sdamgiaId": "27972",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "BB9DFE",
+          "sdamgiaId": "28010",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "BF8B20",
+          "sdamgiaId": "28096",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "8ECA1A",
+          "sdamgiaId": "28124",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "525C2B",
+          "sdamgiaId": "28192",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "8BADED",
+          "sdamgiaId": "28200",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "36C19D",
+          "sdamgiaId": "28206",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "FFD9D6",
+          "sdamgiaId": "28230",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            false
+          ]
+        },
+        {
+          "fipiId": "D5C915",
+          "sdamgiaId": "28239",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "7157DC",
+          "sdamgiaId": "28246",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "67A7D4",
+          "sdamgiaId": "28291",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "2B3453",
+          "sdamgiaId": "28347",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "D90352",
+          "sdamgiaId": "28350",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            false
+          ]
+        },
+        {
+          "fipiId": "123B46",
+          "sdamgiaId": "28352",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "7C8E12",
+          "sdamgiaId": "28361",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "3BF556",
+          "sdamgiaId": "28388",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            false
+          ]
+        },
+        {
+          "fipiId": "8C305F",
+          "sdamgiaId": "28389",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "76D2A4",
+          "sdamgiaId": "28417",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "3B5CA0",
+          "sdamgiaId": "28422",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "BD2AA5",
+          "sdamgiaId": "28424",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "190EAC",
+          "sdamgiaId": "28433",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "C9D2AC",
+          "sdamgiaId": "28460",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "C7F2B6",
+          "sdamgiaId": "28469",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "A7A870",
+          "sdamgiaId": "28529",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "F38C95",
+          "sdamgiaId": "28577",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "5F4293",
+          "sdamgiaId": "28630",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "6D7D9D",
+          "sdamgiaId": "28647",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "CE10EC",
+          "sdamgiaId": "28704",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "B2697F",
+          "sdamgiaId": "28808",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "A0A630",
+          "sdamgiaId": "28874",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "C1733B",
+          "sdamgiaId": "28877",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "5FDD8E",
+          "sdamgiaId": "28940",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "A70F86",
+          "sdamgiaId": "28946",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "48A97F",
+          "sdamgiaId": "28952",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "6A56DC",
+          "sdamgiaId": "30232",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "C85929",
+          "sdamgiaId": "30241",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "684A20",
+          "sdamgiaId": "30485",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "35312A",
+          "sdamgiaId": "30494",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            false
+          ]
+        },
+        {
+          "fipiId": "A860F6",
+          "sdamgiaId": "34228",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            false
+          ]
+        },
+        {
+          "fipiId": "E47CF9",
+          "sdamgiaId": "34237",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "31A878",
+          "sdamgiaId": "34246",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "C41AE9",
+          "sdamgiaId": "34276",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "BF33A4",
+          "sdamgiaId": "34285",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "22DB42",
+          "sdamgiaId": "43528",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "E7D1FF",
+          "sdamgiaId": "43529",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "67FFF2",
+          "sdamgiaId": "43532",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "D43B0B",
+          "sdamgiaId": "43533",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "DC8C0B",
+          "sdamgiaId": "43534",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "F18FB4",
+          "sdamgiaId": "43536",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "D1DAB4",
+          "sdamgiaId": "43537",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "67D7B0",
+          "sdamgiaId": "43538",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "CE9D15",
+          "sdamgiaId": "43539",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "363C10",
+          "sdamgiaId": "43541",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "40F7D2",
+          "sdamgiaId": "43542",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "3DC65A",
+          "sdamgiaId": "43544",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "39BCA6",
+          "sdamgiaId": "43545",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "34D890",
+          "sdamgiaId": "43546",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "FEE6EB",
+          "sdamgiaId": "43548",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "06E8E5",
+          "sdamgiaId": "43549",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "40966C",
+          "sdamgiaId": "43550",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "6CF163",
+          "sdamgiaId": "43552",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "811839",
+          "sdamgiaId": "43553",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        },
+        {
+          "fipiId": "375583",
+          "sdamgiaId": "43554",
+          "passageCount": 1,
+          "normalizedTextMatches": [
+            true
+          ]
+        }
+      ],
+      "mapping": {
+        "21295": {
+          "fipiId": "9F1FB0",
+          "officialId": "4B251133CEB381904B879A9FD07FA816",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "21307": {
+          "fipiId": "D38C5A",
+          "officialId": "879FEA7880B8944A480B3D87D1BAAEEB",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "27589": {
+          "fipiId": "4E8948",
+          "officialId": "00FFCB6D64E8A1454B63B999A3ACB481",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "27645": {
+          "fipiId": "679445",
+          "officialId": "0D8B306F57C2BE474FA522BBD05FD83E",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "27701": {
+          "fipiId": "A427FB",
+          "officialId": "1946031D4C75958245B22FDC3B5124E7",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "27704": {
+          "fipiId": "4E4044",
+          "officialId": "0000C2980A04B2F3450E8D8BDC73F108",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "27723": {
+          "fipiId": "B12908",
+          "officialId": "24F65B0B4C1CBF9E482AE4228C23AA5D",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "27793": {
+          "fipiId": "57680A",
+          "officialId": "289D3FB7496E82C64736C146B4CB3514",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "27819": {
+          "fipiId": "5FC561",
+          "officialId": "D85A183B6EEA91434F0068A1C9D31A7D",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "27885": {
+          "fipiId": "1654D9",
+          "officialId": "75B8D0611B5C9E9741E795976878E726",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "27902": {
+          "fipiId": "9ECF78",
+          "officialId": "3BFAC1BE0344AC754F9BC0B94461EDB0",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "27905": {
+          "fipiId": "E3E073",
+          "officialId": "3CECE2741B92A27C47D3F2BADE2A518C",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "27909": {
+          "fipiId": "68BC21",
+          "officialId": "6D54FA4CCF11A6844CFC893800FF96DD",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "27972": {
+          "fipiId": "1BADB6",
+          "officialId": "45D9474DC3EFA2A94FA31C5D7D6031BB",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "28010": {
+          "fipiId": "BB9DFE",
+          "officialId": "14CB47063F73830C40E3D0D67D942715",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "28096": {
+          "fipiId": "BF8B20",
+          "officialId": "642F14B9AF18B7CB4C4847FE04AD5951",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "28124": {
+          "fipiId": "8ECA1A",
+          "officialId": "5F9AC969909A8C234925B4480389B2FD",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "28192": {
+          "fipiId": "525C2B",
+          "officialId": "68486AAFA20194C24AB592E5707B2840",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "28200": {
+          "fipiId": "8BADED",
+          "officialId": "CF79475BA4DD9EE448768F6192448734",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28206": {
+          "fipiId": "36C19D",
+          "officialId": "BE7AD5E121C1A88E4649D9A01474A15C",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28230": {
+          "fipiId": "FFD9D6",
+          "officialId": "71D71B2FEB1C86494A9D27391A732ADA",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": false
+        },
+        "28239": {
+          "fipiId": "D5C915",
+          "officialId": "578A8BD5054E9C634AA786ECA8D26D33",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "28246": {
+          "fipiId": "7157DC",
+          "officialId": "73A853CBF78FB545405BC27364722F51",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "28291": {
+          "fipiId": "67A7D4",
+          "officialId": "7D0933122F0588FE4C0A259376C7923E",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "28347": {
+          "fipiId": "2B3453",
+          "officialId": "86EE4056660D97DA40400FB623591A9F",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "28350": {
+          "fipiId": "D90352",
+          "officialId": "8762BE0EE24CA42645CA87C3CA1ECEC1",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": false
+        },
+        "28352": {
+          "fipiId": "123B46",
+          "officialId": "05DE64CD787BAD144958DE6FB1F37568",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "28361": {
+          "fipiId": "7C8E12",
+          "officialId": "536FAC7E24EF955E4C4F6B51D98247E9",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "28388": {
+          "fipiId": "3BF556",
+          "officialId": "8ED148A35D57A7994E778C1B0FA52460",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": false
+        },
+        "28389": {
+          "fipiId": "8C305F",
+          "officialId": "8F1EA204A4AAB3C845B4347D42CA6397",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "28417": {
+          "fipiId": "76D2A4",
+          "officialId": "9307D64C1606B60F4A635B2A426F7839",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "28422": {
+          "fipiId": "3B5CA0",
+          "officialId": "9E284A9B29D8BC104EDECFAB13A4C185",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28424": {
+          "fipiId": "BD2AA5",
+          "officialId": "948679E936E8A6C84E50EE5C59FC63CE",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "28433": {
+          "fipiId": "190EAC",
+          "officialId": "95A2BCD1224FBBBA4BD371A0C090FDBE",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "28460": {
+          "fipiId": "C9D2AC",
+          "officialId": "9AA7B6B7D2DBB3644DD120DF5E244FB3",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28469": {
+          "fipiId": "C7F2B6",
+          "officialId": "4AD136EDEFEFABEF468C8296C11A6941",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "28529": {
+          "fipiId": "A7A870",
+          "officialId": "39293F4F063C92DE4CA561610E96BF9B",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "28577": {
+          "fipiId": "F38C95",
+          "officialId": "B18FEA700F019E7846847E595120623A",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28630": {
+          "fipiId": "5F4293",
+          "officialId": "B8E0160CC27D93AC4A696FFBF6678CDD",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28647": {
+          "fipiId": "6D7D9D",
+          "officialId": "BD7377F9152FAFCD4D164C56AE89FAED",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28704": {
+          "fipiId": "CE10EC",
+          "officialId": "CAA5C2B56BAFB9EF474359D4E9F4B951",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "28808": {
+          "fipiId": "B2697F",
+          "officialId": "341D6B9664C1A9E84374354607B1D344",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "28874": {
+          "fipiId": "A0A630",
+          "officialId": "E9292DAB147299DC405BAF0ED89395AF",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "28877": {
+          "fipiId": "C1733B",
+          "officialId": "EA435EB773B3BE3F474FE577444A16EA",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "28940": {
+          "fipiId": "5FDD8E",
+          "officialId": "F8C717DA9B1A9D0A41ECB1B06757E3C1",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "28946": {
+          "fipiId": "A70F86",
+          "officialId": "F9D231467EE5A30A49B6E549A5152A1A",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "28952": {
+          "fipiId": "48A97F",
+          "officialId": "3019FBB3404DA4614C97DA032B4DDEDC",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "30232": {
+          "fipiId": "6A56DC",
+          "officialId": "7DA89D548639BF0944FFE57229216C5A",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "30241": {
+          "fipiId": "C85929",
+          "officialId": "6AB8FB1BA520A5AD4E3ACAAA4030AC2F",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "30485": {
+          "fipiId": "684A20",
+          "officialId": "6D20F991CCCC98494E09F662FA25C04E",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": true
+        },
+        "30494": {
+          "fipiId": "35312A",
+          "officialId": "6E9E85EFCF5AA80C4F3C4D97DD6FC9E7",
+          "snapshot": "data/raw/fipi-task5-page-03.html",
+          "matches": false
+        },
+        "34228": {
+          "fipiId": "A860F6",
+          "officialId": "19DDF2480CA48C8147B7AC634E77DBA4",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": false
+        },
+        "34237": {
+          "fipiId": "E47CF9",
+          "officialId": "1CB30A3177AE9F0F462647B12D5C15C7",
+          "snapshot": "data/raw/fipi-task5-page-01.html",
+          "matches": true
+        },
+        "34246": {
+          "fipiId": "31A878",
+          "officialId": "3EF95F9B89E199D64AA4B9EE1948C25C",
+          "snapshot": "data/raw/fipi-task5-page-02.html",
+          "matches": true
+        },
+        "34276": {
+          "fipiId": "C41AE9",
+          "officialId": "CAB509558F35B398459FA501055B694A",
+          "snapshot": "data/raw/fipi-task5-page-05.html",
+          "matches": true
+        },
+        "34285": {
+          "fipiId": "BF33A4",
+          "officialId": "940E1E3D85D9AE554C80AA6BF161965C",
+          "snapshot": "data/raw/fipi-task5-page-04.html",
+          "matches": true
+        },
+        "43528": {
+          "fipiId": "22DB42",
+          "officialId": "06676484EA1FA16C4D3EA11D9AC3F840",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "43529": {
+          "fipiId": "E7D1FF",
+          "officialId": "1C1735D661EAB53748A7BBC69C59B421",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "43532": {
+          "fipiId": "67FFF2",
+          "officialId": "1D613154E27A8BB34B8B03D33A67E37A",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "43533": {
+          "fipiId": "D43B0B",
+          "officialId": "274E0485A666BB9742304A823D144C10",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "43534": {
+          "fipiId": "DC8C0B",
+          "officialId": "274FAA556E1AB1C64E79E9D213F461F9",
+          "snapshot": "data/raw/fipi-task5-page-06.html",
+          "matches": true
+        },
+        "43536": {
+          "fipiId": "F18FB4",
+          "officialId": "410F51069651A62A4AF7AF1DE99FC841",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43537": {
+          "fipiId": "D1DAB4",
+          "officialId": "470759FC4228931E473DAB32E63C0656",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43538": {
+          "fipiId": "67D7B0",
+          "officialId": "4D2733A69ED7B1DF4B7B2873DC835F09",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43539": {
+          "fipiId": "CE9D15",
+          "officialId": "5A8BC7ADC57B8E9840A7AD2756665C54",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43541": {
+          "fipiId": "363C10",
+          "officialId": "5E2EDA02B240B1A040D94247BF139A8E",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43542": {
+          "fipiId": "40F7D2",
+          "officialId": "706123D2F34783654F67F54CA8F1FAE8",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43544": {
+          "fipiId": "3DC65A",
+          "officialId": "8E9A7D09DF9DB1F64BB58DAB5A6532E8",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43545": {
+          "fipiId": "39BCA6",
+          "officialId": "9ED4BA6CA6C1AF4047BAF350C95E7249",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43546": {
+          "fipiId": "34D890",
+          "officialId": "BE270F492E1AA0F446C3DF3113B1A2FD",
+          "snapshot": "data/raw/fipi-task5-page-07.html",
+          "matches": true
+        },
+        "43548": {
+          "fipiId": "FEE6EB",
+          "officialId": "C14CCD6BC2C4AE334CDF02EC809556BF",
+          "snapshot": "data/raw/fipi-task5-page-08.html",
+          "matches": true
+        },
+        "43549": {
+          "fipiId": "06E8E5",
+          "officialId": "C28CDF75F74F94B84F5385ED43EA089D",
+          "snapshot": "data/raw/fipi-task5-page-08.html",
+          "matches": true
+        },
+        "43550": {
+          "fipiId": "40966C",
+          "officialId": "D0AB2D78A0EA9FEA449FA043FB9C6F4C",
+          "snapshot": "data/raw/fipi-task5-page-08.html",
+          "matches": true
+        },
+        "43552": {
+          "fipiId": "6CF163",
+          "officialId": "DDE1A56778E5BD394A4BC4CDE19DAE73",
+          "snapshot": "data/raw/fipi-task5-page-08.html",
+          "matches": true
+        },
+        "43553": {
+          "fipiId": "811839",
+          "officialId": "EFB55FB0BEF1A3ED43A9CC1B4FE2645B",
+          "snapshot": "data/raw/fipi-task5-page-08.html",
+          "matches": true
+        },
+        "43554": {
+          "fipiId": "375583",
+          "officialId": "FEE8389E2673A6814A50CFBD71106596",
+          "snapshot": "data/raw/fipi-task5-page-08.html",
+          "matches": true
+        }
+      },
+      "differences": [
+        {
+          "variantId": "28230",
+          "field": "passage",
+          "mirror": "Наиболее уникальным отличием",
+          "official": "Важным отличием"
+        },
+        {
+          "variantId": "28350",
+          "field": "passage",
+          "mirror": "и затем достраивали её уже в таком положении",
+          "official": "и впоследствии её достраивали уже в таком положении"
+        },
+        {
+          "variantId": "28388",
+          "field": "passage",
+          "mirror": "струи воды водопада",
+          "official": "струи водопада"
+        },
+        {
+          "variantId": "30494",
+          "field": "passage",
+          "mirror": "она также известна",
+          "official": "она известна"
+        },
+        {
+          "variantId": "34228",
+          "field": "passage",
+          "mirror": "разнообразными источниками",
+          "official": "разнообразными изобразительными источниками"
+        }
+      ],
+      "allTextsMatchAfterTypographyNormalization": false
+    }
+  ]
+}

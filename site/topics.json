@@ -1,0 +1,147 @@
+{
+  "title": "Запятые ОГЭ",
+  "repository": "zapyatye-oge",
+  "topics": [
+    {
+      "id": "spp",
+      "title": "СПП",
+      "path": "spp.html",
+      "kind": "trainer",
+      "theme": "teal",
+      "caption": "55 карточек",
+      "dataset": "data/corpus.json",
+      "entry": "app.js",
+      "progressKey": "oge-spp-commas:progress:v2",
+      "journalKey": "oge-spp-commas:progress:v2",
+      "journalField": "errors"
+    },
+    {
+      "id": "vvodnye",
+      "title": "Вводные",
+      "path": "topics/vvodnye.html",
+      "kind": "planned",
+      "theme": "honey",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:vvodnye:progress:v1",
+      "journalKey": "zapyatye-oge:vvodnye:errors:v1"
+    },
+    {
+      "id": "obosoblenie",
+      "title": "Обособление",
+      "path": "topics/obosoblenie.html",
+      "kind": "collection",
+      "theme": "coral",
+      "caption": "6 подразделов",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:obosoblenie:progress:v1",
+      "journalKey": "zapyatye-oge:obosoblenie:errors:v1"
+    },
+    {
+      "id": "odnorodnye",
+      "title": "Однородные",
+      "path": "topics/odnorodnye.html",
+      "kind": "planned",
+      "theme": "plum",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:odnorodnye:progress:v1",
+      "journalKey": "zapyatye-oge:odnorodnye:errors:v1"
+    },
+    {
+      "id": "ssp",
+      "title": "ССП",
+      "path": "topics/ssp.html",
+      "kind": "planned",
+      "theme": "emerald",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:ssp:progress:v1",
+      "journalKey": "zapyatye-oge:ssp:errors:v1"
+    },
+    {
+      "id": "bsp",
+      "title": "БСП",
+      "path": "topics/bsp.html",
+      "kind": "planned",
+      "theme": "sea",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:bsp:progress:v1",
+      "journalKey": "zapyatye-oge:bsp:errors:v1"
+    },
+    {
+      "id": "obstoyatelstva",
+      "title": "Обстоятельства",
+      "parent": "obosoblenie",
+      "path": "topics/obosoblenie/obstoyatelstva.html",
+      "kind": "planned",
+      "theme": "teal",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:obstoyatelstva:progress:v1",
+      "journalKey": "zapyatye-oge:obstoyatelstva:errors:v1"
+    },
+    {
+      "id": "opredeleniya",
+      "title": "Определения",
+      "parent": "obosoblenie",
+      "path": "topics/obosoblenie/opredeleniya.html",
+      "kind": "planned",
+      "theme": "honey",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:opredeleniya:progress:v1",
+      "journalKey": "zapyatye-oge:opredeleniya:errors:v1"
+    },
+    {
+      "id": "prilozheniya",
+      "title": "Приложения",
+      "parent": "obosoblenie",
+      "path": "topics/obosoblenie/prilozheniya.html",
+      "kind": "planned",
+      "theme": "coral",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:prilozheniya:progress:v1",
+      "journalKey": "zapyatye-oge:prilozheniya:errors:v1"
+    },
+    {
+      "id": "utochneniya",
+      "title": "Уточняющие конструкции",
+      "parent": "obosoblenie",
+      "path": "topics/obosoblenie/utochneniya.html",
+      "kind": "planned",
+      "theme": "plum",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:utochneniya:progress:v1",
+      "journalKey": "zapyatye-oge:utochneniya:errors:v1"
+    },
+    {
+      "id": "obrashcheniya",
+      "title": "Обращения",
+      "parent": "obosoblenie",
+      "path": "topics/obosoblenie/obrashcheniya.html",
+      "kind": "planned",
+      "theme": "emerald",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:obrashcheniya:progress:v1",
+      "journalKey": "zapyatye-oge:obrashcheniya:errors:v1"
+    },
+    {
+      "id": "mezhdometiya",
+      "title": "Междометия",
+      "parent": "obosoblenie",
+      "path": "topics/obosoblenie/mezhdometiya.html",
+      "kind": "planned",
+      "theme": "sea",
+      "dataset": null,
+      "entry": null,
+      "progressKey": "zapyatye-oge:mezhdometiya:progress:v1",
+      "journalKey": "zapyatye-oge:mezhdometiya:errors:v1"
+    }
+  ]
+}

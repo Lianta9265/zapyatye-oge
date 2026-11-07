@@ -1,0 +1,62 @@
+/* Only control placement and spacing change here. Approved decoration and type sizes are inherited. */
+:root{--trainer-controls-height:124px}
+body[data-page="spp"] .masthead{padding:6px 24px;gap:12px}
+body[data-page="spp"] .masthead .brand-mark{width:29px;height:31px;font-size:28px}
+body[data-page="spp"] .masthead .save-status{line-height:1.3}
+.control-shell{padding:0 14px 5px;box-sizing:border-box}
+.control-panel{display:grid;grid-template-columns:max-content max-content minmax(146px,180px);grid-template-areas:"home sections progress" "actions actions actions";justify-content:start;align-items:center;gap:6px 12px;width:max-content;max-width:100%;min-width:0;margin:0 auto;padding:6px 9px;border-radius:16px}
+.control-panel>.trainer-return{grid-area:home;display:flex;justify-content:flex-start;gap:0;width:max-content;max-width:100%;padding:0;margin:0}
+.control-panel .trainer-breadcrumb{display:none}
+.control-panel .sections{grid-area:sections;display:flex;gap:8px;width:max-content;max-width:100%;padding:0;margin:0}
+.control-panel .section{flex:none;width:auto;min-width:0;min-height:46px;height:46px;padding:6px 10px;gap:8px}
+.control-panel .section .count{min-width:26px;min-height:26px;padding:3px 5px}
+.control-panel .trainer-return .portal-back{min-width:0;min-height:46px;height:46px;padding:6px 13px;gap:8px}
+.control-panel .compact-progress{grid-area:progress;display:block;width:100%;max-width:180px;min-width:0;margin:0;align-self:center}
+.control-panel .compact-progress>div{flex-direction:row;gap:8px;margin:0 0 5px;align-items:center}
+.control-panel .compact-progress progress{height:7px;margin:0}
+.actions-menu{grid-area:actions;position:relative;min-width:0;width:max-content;max-width:100%;justify-self:start}
+.actions-toggle{display:none;position:relative;isolation:isolate;align-items:center;justify-content:center;gap:8px;box-sizing:border-box;min-height:46px;height:46px;width:max-content;padding:6px 11px;cursor:pointer;list-style:none;border:1px solid #c99543;border-bottom-width:3px;border-radius:13px;background:linear-gradient(145deg,#fff3e5,#eadde4);color:#64425e;font:700 17px/1.45 "Segoe UI",Arial,sans-serif;box-shadow:inset 0 1px #ffffffba,0 3px 0 #80644d19,0 6px 13px #5c354c0d;transform:translateY(0);transition:transform 200ms ease,box-shadow 200ms ease,border-color 200ms ease}
+.actions-toggle:before{content:"";position:absolute;inset:4px;border:1px solid #dcb77578;border-radius:9px;pointer-events:none;z-index:-1;box-shadow:inset 0 1px #ffffff3d}
+.actions-toggle::-webkit-details-marker{display:none}.actions-toggle::marker{content:""}
+.actions-toggle:hover,.actions-toggle:focus-visible{transform:translateY(-2px);border-color:#dca63d;box-shadow:inset 0 1px #ffffffa6,0 0 0 3px #bda15c26,0 8px 18px #26685a2b}
+.actions-toggle:focus-visible{outline:3px solid #9d6b28;outline-offset:4px}.actions-toggle:active{transform:translateY(0)}
+.actions-chevron{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:transform 200ms ease}
+.actions-menu[open] .actions-chevron{transform:rotate(180deg)}
+.control-panel .panel-actions{display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-start;gap:8px;width:max-content;max-width:100%;padding:0;margin:0;border:0}
+.control-panel .panel-actions .button{flex:none;min-width:0;width:auto;min-height:46px;height:46px;padding:6px 13px;gap:8px;white-space:nowrap}
+.control-panel .panel-actions #reset{grid-column:auto;min-height:46px}
+.control-panel #journal-open .count{min-width:26px;min-height:25px;padding:2px 5px}
+#resume{color:#fffef4;border-color:#c99543;background:linear-gradient(140deg,#238577,#12666b);box-shadow:inset 0 1px #ffffff80,0 3px 0 #10575e2b,0 6px 13px #1a71632b}
+#resume:not(:disabled):hover,#resume:focus-visible{background:linear-gradient(140deg,#299682,#197578);box-shadow:inset 0 1px #ffffff8c,0 0 0 3px #bda15c26,0 8px 18px #26685a2b}
+#resume:disabled{opacity:1;color:#275b46;background:linear-gradient(145deg,#e7f1e5,#d5e6d7);border-color:#9dbb9f}
+.continue-icon{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.resume-status{color:#176444;border:1px solid #a8ccb0;background:#e4f3e9;border-radius:10px;font-size:17px;padding:15px 19px;margin:18px 0}
+/* Keep the top of the first source visible below the measured sticky controls. */
+body[data-page="spp"] .page-heading{margin-top:0}
+body[data-page="spp"] main{padding-top:28px}
+body[data-page="spp"] .sentence .word{max-width:100%;overflow-wrap:anywhere}
+body[data-page="spp"] .scores dd{white-space:nowrap;flex-shrink:0}
+@media(max-width:1000px){.control-panel{gap:6px 10px;padding:6px 8px}.control-panel .section{padding:6px 9px}.control-panel .panel-actions .button{padding:6px 12px}}
+@media(max-width:700px){
+  :root{--trainer-controls-height:153px}
+  body[data-page="spp"] .masthead{padding:5px 13px;gap:10px}
+  .control-shell{padding:0 9px 4px}
+  .control-panel{grid-template-columns:max-content minmax(0,1fr);grid-template-areas:"home actions" "sections sections" "progress progress";gap:5px 8px;width:100%;max-width:440px;padding:5px 7px;border-radius:14px}
+  .control-panel>.trainer-return{justify-self:start}
+  .control-panel .trainer-return .portal-back{padding:6px 11px;gap:8px}
+  .control-panel .sections{gap:8px;justify-content:flex-start;justify-self:start;width:max-content;max-width:100%}
+  .control-panel .section{padding:6px 10px;gap:8px}
+  .control-panel .compact-progress{display:flex;align-items:center;gap:12px;width:100%;max-width:none;min-height:23px}
+  .control-panel .compact-progress>div{display:flex;flex-direction:row;align-items:center;gap:10px;flex:none;margin:0;white-space:nowrap}
+  .control-panel .compact-progress progress{flex:1;min-width:30px;width:auto;height:7px}
+  .actions-menu{grid-area:actions;justify-self:end;width:max-content}
+  .actions-toggle{display:inline-flex}
+  .actions-menu .panel-actions{position:absolute;top:calc(100% + 7px);right:0;z-index:9;display:flex;flex-direction:column;align-items:flex-start;gap:8px;width:max-content;min-width:0;max-width:calc(100vw - 32px);max-height:calc(100dvh - 88px);overflow-y:auto;padding:8px;border:1px solid #bc9c71;border-radius:15px;background:linear-gradient(145deg,#fffdf8,#f5eee5);box-shadow:inset 0 1px #fff,0 10px 28px #4c36502e}
+  .actions-menu:not([open]) .panel-actions{display:none}
+  .control-panel .actions-menu .panel-actions .button{width:max-content;max-width:100%;padding:6px 13px;min-height:46px;height:46px;white-space:nowrap}
+  body[data-page="spp"] main{padding-top:24px}
+  .toolbar .filters{min-width:0;max-width:100%;flex-wrap:wrap}
+}
+@media(max-width:640px){.actions-toggle{font-size:16px}}
+@media(max-width:380px){.control-panel{padding:5px 6px;gap:5px 6px}.control-panel .section{padding:6px 8px;gap:6px}.control-panel .trainer-return .portal-back{padding:6px 10px;gap:7px}.actions-toggle{padding:6px 10px;gap:6px}.control-panel .panel-actions #reset{min-height:46px}.toolbar .filter{padding:10px 6px}}
+@media(prefers-reduced-motion:reduce){.actions-toggle,.actions-chevron{transition:none!important}.actions-toggle:hover,.actions-toggle:focus-visible{transform:none}}
