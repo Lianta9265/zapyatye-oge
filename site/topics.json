@@ -84,12 +84,20 @@
       "title": "Обстоятельства",
       "parent": "obosoblenie",
       "path": "topics/obosoblenie/obstoyatelstva.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "teal",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/obstoyatelstva/data.json",
+      "entry": "trainers/obstoyatelstva/app.js",
       "progressKey": "zapyatye-oge:obstoyatelstva:progress:v1",
-      "journalKey": "zapyatye-oge:obstoyatelstva:errors:v1"
+      "journalKey": "zapyatye-oge:obstoyatelstva:errors:v1",
+      "caption": "52 карточки",
+      "assets": [
+        "trainers/obstoyatelstva/core.js",
+        "trainers/obstoyatelstva/data.js",
+        "trainers/obstoyatelstva/styles.css",
+        "trainers/obstoyatelstva/panel.js",
+        "OBSTOYATELSTVA-REPORT.md"
+      ]
     },
     {
       "id": "opredeleniya",

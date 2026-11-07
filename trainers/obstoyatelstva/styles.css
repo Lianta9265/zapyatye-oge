@@ -1,0 +1,49 @@
+/* Inherit the existing buttons and cards; only this three-section panel is laid out here. */
+.syntax-tools{margin:12px 0 18px;border:1px solid #c4d9cd;border-radius:14px;padding:10px 13px;background:#fffdf7}
+.syntax-tools summary{cursor:pointer;color:#543954;font-weight:800;font-size:17px}
+.syntax-tools summary span{font-size:14px;font-weight:500;display:inline-block;margin-left:8px}
+.syntax-tools p{font-size:16px;line-height:1.5;margin:10px 0}
+.syntax-palette{display:flex;flex-wrap:wrap;gap:8px}
+.syntax-tool{min-height:44px;max-width:100%;padding:8px 12px;border:2px solid currentColor;border-radius:12px;font-weight:700;font-size:16px;line-height:1.4;font-family:inherit;cursor:pointer;box-shadow:inset 0 0 0 2px #fff9,0 3px 8px #54395418}
+.syntax-tool[aria-pressed=true]{outline:3px solid #795471;outline-offset:2px}
+.syntax-gerund-phrase{background:#d8efcc;color:#214f24}
+.syntax-single-gerund{background:#d8eafa;color:#1c4778}
+.syntax-despite{background:#f9d9e9;color:#79254e}
+.syntax-erase{background:#f7eee2;color:#604647}
+.syntax-word{border-radius:4px;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.syntax-word:hover{box-shadow:inset 0 -2px #d3a44f}
+.syntax-word:focus-visible{outline:2px solid #007f80;outline-offset:2px}
+.syntax-word.marked{box-shadow:inset 0 -2px currentColor}
+.syntax-label{display:inline-block;border-radius:5px;padding:2px 6px;font-weight:700}
+.syntax-answer{border-top:1px solid #d9dbcf;margin-top:14px;padding-top:12px;line-height:1.7}
+.syntax-status:empty{display:none}
+body[data-page="obstoyatelstva"] .masthead{padding:6px 18px}
+body[data-page="obstoyatelstva"] .page-heading{margin-top:0}
+body[data-page="obstoyatelstva"] main{padding-top:24px}
+body[data-page="obstoyatelstva"] .card,body[data-page="obstoyatelstva"] .source-block{scroll-margin-top:var(--trainer-controls-height)}
+body[data-page="obstoyatelstva"] .results-grid{grid-template-columns:minmax(0,1fr)}
+body[data-page="obstoyatelstva"] .control-panel{grid-template-columns:max-content max-content minmax(140px,180px)}
+body[data-page="obstoyatelstva"] .card-prompt{line-height:1.7}
+body[data-page="obstoyatelstva"] .section{gap:6px;padding-inline:9px}
+body[data-page="obstoyatelstva"] .panel-actions{gap:7px}
+body[data-page="obstoyatelstva"] .panel-actions .button{padding-inline:11px}
+@media(max-width:1000px){
+body[data-page="obstoyatelstva"] .control-panel{grid-template-columns:max-content minmax(0,1fr);grid-template-areas:"home actions" "sections sections" "progress progress";width:100%;max-width:650px;gap:5px 8px}
+body[data-page="obstoyatelstva"] .sections{display:flex;flex-wrap:wrap;gap:6px;width:100%;max-width:100%;justify-self:start}
+body[data-page="obstoyatelstva"] .compact-progress{display:flex;align-items:center;gap:12px;max-width:none;min-height:23px}
+body[data-page="obstoyatelstva"] .compact-progress>div{white-space:nowrap;margin:0;flex-direction:row;align-items:center}
+body[data-page="obstoyatelstva"] progress{flex:1;min-width:30px}
+body[data-page="obstoyatelstva"] .actions-menu{justify-self:end}
+body[data-page="obstoyatelstva"] .actions-toggle{display:inline-flex}
+body[data-page="obstoyatelstva"] .panel-actions{position:absolute;top:calc(100% + 7px);right:0;z-index:9;flex-direction:column;align-items:flex-start;width:max-content;max-width:calc(100vw - 32px);max-height:calc(100dvh - 88px);overflow-y:auto;padding:8px;border:1px solid #bc9c71;border-radius:15px;background:linear-gradient(145deg,#fffdf8,#f5eee5);box-shadow:inset 0 1px #fff,0 10px 28px #4c36502e}
+body[data-page="obstoyatelstva"] .actions-menu:not([open]) .panel-actions{display:none}
+body[data-page="obstoyatelstva"] .panel-actions .button{width:max-content;max-width:100%;min-height:46px;height:46px;white-space:nowrap}
+}
+@media(max-width:700px){
+body[data-page="obstoyatelstva"] .masthead{padding:5px 13px}
+body[data-page="obstoyatelstva"] .control-panel{max-width:480px}
+body[data-page="obstoyatelstva"] .practice-guide{margin:16px 0;padding:12px 14px;gap:10px 16px}
+body[data-page="obstoyatelstva"] .method-note{margin-bottom:20px}
+body[data-page="obstoyatelstva"] h1{font-size:40px}
+body[data-page="obstoyatelstva"] .filters{flex-wrap:wrap}
+}
