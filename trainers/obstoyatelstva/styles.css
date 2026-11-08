@@ -1,19 +1,39 @@
 /* Inherit the existing buttons and cards; only this three-section panel is laid out here. */
 .syntax-tools{margin:12px 0 18px;border:1px solid #c4d9cd;border-radius:14px;padding:10px 13px;background:#fffdf7}
-.syntax-tools summary{cursor:pointer;color:#543954;font-weight:800;font-size:17px}
-.syntax-tools summary span{font-size:14px;font-weight:500;display:inline-block;margin-left:8px}
+.syntax-tools h4{color:#543954;font-weight:800;font-size:18px;margin:2px 0 12px}
 .syntax-tools p{font-size:16px;line-height:1.5;margin:10px 0}
 .syntax-palette{display:flex;flex-wrap:wrap;gap:8px}
-.syntax-tool{min-height:44px;max-width:100%;padding:8px 12px;border:2px solid currentColor;border-radius:12px;font-weight:700;font-size:16px;line-height:1.4;font-family:inherit;cursor:pointer;box-shadow:inset 0 0 0 2px #fff9,0 3px 8px #54395418}
+@media(min-width:1100px){.syntax-palette{flex-wrap:nowrap}.syntax-tool{flex:0 1 auto}}
+.syntax-tool{min-height:46px;max-width:100%;padding:8px 12px;border:2px solid currentColor;border-radius:12px;font-weight:800;font-size:17px;line-height:1.4;font-family:inherit;cursor:pointer;box-shadow:inset 0 0 0 2px #fff9,inset 0 6px 9px #fff6,0 3px 0 #54395422,0 5px 12px #54395418;transition:transform .18s ease,box-shadow .18s ease}
+.syntax-tool:not(:disabled):hover{transform:translateY(-2px);box-shadow:inset 0 0 0 2px #fff9,inset 0 6px 12px #fff9,0 4px 0 #54395422,0 7px 16px #46796c38}
+.syntax-tool:disabled{cursor:default}
 .syntax-tool[aria-pressed=true]{outline:3px solid #795471;outline-offset:2px}
+body[data-page="obstoyatelstva"] .position[data-tone="gerund-phrase"]{background:linear-gradient(#d7f0bd,#bfe39d);border:2px solid #39722e;color:#193e17;box-shadow:inset 0 0 0 2px #f2ffe3,0 3px 0 #39722e66,0 4px 10px #47762a24}
+body[data-page="obstoyatelstva"] .position[data-tone="single-gerund"]{background:linear-gradient(#d2efff,#a6d8f8);border:2px solid #286b9e;color:#123e69;box-shadow:inset 0 0 0 2px #effaff,0 3px 0 #286b9e66,0 4px 10px #286b9e24}
+body[data-page="obstoyatelstva"] .position[data-tone="despite"]{background:linear-gradient(#ffdfed,#f5b9d4);border:2px solid #ad4377;color:#722448;box-shadow:inset 0 0 0 2px #fff0f6,0 3px 0 #ad437766,0 4px 10px #ad437724}
+body[data-page="obstoyatelstva"] .position[data-tone]:not([data-tone=""]).correct{outline:2px solid #26734c;outline-offset:2px}
+body[data-page="obstoyatelstva"] .position[data-tone]:not([data-tone=""]).incorrect{outline:3px solid #b6423c;outline-offset:2px;border-color:#a63330}
 .syntax-gerund-phrase{background:#d8efcc;color:#214f24}
 .syntax-single-gerund{background:#d8eafa;color:#1c4778}
 .syntax-despite{background:#f9d9e9;color:#79254e}
-.syntax-erase{background:#f7eee2;color:#604647}
-.syntax-word{border-radius:4px;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.syntax-word{border-radius:4px;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone;touch-action:manipulation}
 .syntax-word:hover{box-shadow:inset 0 -2px #d3a44f}
 .syntax-word:focus-visible{outline:2px solid #007f80;outline-offset:2px}
 .syntax-word.marked{box-shadow:inset 0 -2px currentColor}
+.syntax-word.syntax-start{outline:2px dashed #80536f;outline-offset:3px;background:#f6ecd7}
+.syntax-word.syntax-correct{box-shadow:inset 0 -3px #26734c}
+.syntax-word.syntax-incorrect{background:#fbe0d7;color:#8c302e;box-shadow:inset 0 -3px #b6423c}
+.syntax-word.syntax-missed{text-decoration:underline dashed currentColor;text-underline-offset:5px}
+.syntax-word[aria-disabled=true]{cursor:default}
+.syntax-issues{padding-left:21px;margin:12px 0;line-height:1.8;font-size:16px;overflow-wrap:anywhere}
+.syntax-issues li+li{margin-top:10px}
+.syntax-pending-result{border-color:#c8b28c;background:#fffaf0}
+.syntax-pending-result>p{font-size:16px;margin-bottom:0}
+.syntax-hint{color:#5c635f}
+.syntax-status{color:#563c53;font-weight:600}
+body[data-page="obstoyatelstva"] .scores{display:flex;flex-wrap:wrap;gap:10px 18px;max-width:430px;justify-content:flex-end}
+body[data-page="obstoyatelstva"] .scores-caption{flex-basis:100%}
+@media(prefers-reduced-motion:reduce){.syntax-tool{transition:none}.syntax-tool:not(:disabled):hover{transform:none}}
 .syntax-label{display:inline-block;border-radius:5px;padding:2px 6px;font-weight:700}
 .syntax-answer{border-top:1px solid #d9dbcf;margin-top:14px;padding-top:12px;line-height:1.7}
 .syntax-status:empty{display:none}
@@ -46,4 +66,7 @@ body[data-page="obstoyatelstva"] .practice-guide{margin:16px 0;padding:12px 14px
 body[data-page="obstoyatelstva"] .method-note{margin-bottom:20px}
 body[data-page="obstoyatelstva"] h1{font-size:40px}
 body[data-page="obstoyatelstva"] .filters{flex-wrap:wrap}
+body[data-page="obstoyatelstva"] .feed-heading{align-items:flex-start;flex-wrap:wrap}
+body[data-page="obstoyatelstva"] .scores{justify-content:flex-start;width:100%;margin-left:0}
+body[data-page="obstoyatelstva"] .syntax-tool{text-wrap:balance}
 }
