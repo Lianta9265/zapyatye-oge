@@ -169,16 +169,25 @@
       "journalKey": "zapyatye-oge:obrashcheniya:errors:v1"
     },
     {
-      "id": "mezhdometiya",
-      "title": "Междометия",
+      "id": "sravneniya",
+      "title": "Сравнительный оборот",
       "parent": "obosoblenie",
-      "path": "topics/obosoblenie/mezhdometiya.html",
-      "kind": "planned",
+      "path": "topics/obosoblenie/sravneniya.html",
+      "kind": "trainer",
       "theme": "sea",
-      "dataset": null,
-      "entry": null,
-      "progressKey": "zapyatye-oge:mezhdometiya:progress:v1",
-      "journalKey": "zapyatye-oge:mezhdometiya:errors:v1"
+      "dataset": "trainers/sravneniya/data.json",
+      "entry": "trainers/sravneniya/app.js",
+      "progressKey": "zapyatye-oge:sravneniya:progress:v1",
+      "journalKey": "zapyatye-oge:sravneniya:errors:v1",
+      "caption": "26 карточек",
+      "assets": [
+        "trainers/sravneniya/core.js",
+        "trainers/sravneniya/data.js",
+        "trainers/sravneniya/styles.css",
+        "trainers/sravneniya/panel.js",
+        "SRAVNENIYA-REPORT.md",
+        "data/sravneniya-editorial.json"
+      ]
     }
   ]
 }
