@@ -1,0 +1,32 @@
+/* Inherit the existing buttons and cards; only this three-section panel is laid out here. */
+body[data-page="utochneniya"] .masthead{padding:6px 18px}
+body[data-page="utochneniya"] .page-heading{margin-top:0}
+body[data-page="utochneniya"] main{padding-top:24px}
+body[data-page="utochneniya"] .card,body[data-page="utochneniya"] .source-block{scroll-margin-top:var(--trainer-controls-height)}
+body[data-page="utochneniya"] .results-grid{grid-template-columns:minmax(0,1fr)}
+body[data-page="utochneniya"] .control-panel{grid-template-columns:max-content max-content minmax(140px,180px)}
+body[data-page="utochneniya"] .card-prompt{line-height:1.7}
+body[data-page="utochneniya"] .sentence{font-size:26px;line-height:1.95;overflow-wrap:break-word}
+body[data-page="utochneniya"] .section{gap:6px;padding-inline:9px}
+body[data-page="utochneniya"] .panel-actions{gap:7px}
+body[data-page="utochneniya"] .panel-actions .button{padding-inline:11px}
+.application-highlight{color:inherit;background:#d5efe5;border-radius:4px;box-shadow:inset 0 -2px #57a383;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.restored-comma{color:#176b56;font-weight:800}
+.application-explanation{margin-top:12px;padding:12px 14px;border:1px solid #b9d9c9;border-radius:12px;background:#f0faf4}
+.application-explanation ul{padding-left:20px;margin:8px 0 0}.application-explanation li+li{margin-top:8px}
+
+body[data-page="utochneniya"] .task-3 .source-block{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 13px}
+body[data-page="utochneniya"] .task-3 .source-statement{grid-column:1/-1;margin:0 0 8px}
+body[data-page="utochneniya"] .task-3 .sentence-number{grid-column:1;grid-row:2}
+body[data-page="utochneniya"] .task-3 .sentence{grid-column:2;grid-row:2}
+@media(max-width:1000px){
+ body[data-page="utochneniya"] .control-panel{grid-template-columns:max-content minmax(0,1fr);grid-template-areas:"home actions" "sections sections" "progress progress";width:100%;max-width:500px;gap:5px 8px}
+ body[data-page="utochneniya"] .sections{width:auto;max-width:100%;flex-wrap:wrap;gap:5px}
+ body[data-page="utochneniya"] .compact-progress{display:flex;align-items:center;gap:10px;max-width:none}
+ body[data-page="utochneniya"] .compact-progress>div{display:flex;flex-direction:row;gap:8px;margin:0;white-space:nowrap}
+ body[data-page="utochneniya"] .compact-progress progress{flex:1;width:auto;min-width:30px}
+ body[data-page="utochneniya"] .actions-menu{justify-self:end}
+ body[data-page="utochneniya"] .actions-toggle{display:inline-flex}
+ body[data-page="utochneniya"] .actions-menu .panel-actions{position:absolute;top:calc(100% + 7px);right:0;z-index:9;display:flex;flex-direction:column;align-items:flex-start;gap:8px;width:max-content;max-width:calc(100vw - 32px);max-height:calc(100dvh - 88px);overflow-y:auto;padding:8px;border:1px solid #bc9c71;border-radius:15px;background:#fffdf8;box-shadow:0 10px 28px #4c36502e}
+ body[data-page="utochneniya"] .actions-menu:not([open]) .panel-actions{display:none}
+}

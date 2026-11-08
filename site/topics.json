@@ -140,12 +140,21 @@
       "title": "Уточняющие конструкции",
       "parent": "obosoblenie",
       "path": "topics/obosoblenie/utochneniya.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "plum",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/utochneniya/data.json",
+      "entry": "trainers/utochneniya/app.js",
       "progressKey": "zapyatye-oge:utochneniya:progress:v1",
-      "journalKey": "zapyatye-oge:utochneniya:errors:v1"
+      "journalKey": "zapyatye-oge:utochneniya:errors:v1",
+      "caption": "14 карточек",
+      "assets": [
+        "trainers/utochneniya/core.js",
+        "trainers/utochneniya/data.js",
+        "trainers/utochneniya/styles.css",
+        "trainers/utochneniya/panel.js",
+        "UTOCHNENIYA-REPORT.md",
+        "data/utochneniya-reserve.json"
+      ]
     },
     {
       "id": "obrashcheniya",
