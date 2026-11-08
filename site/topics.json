@@ -116,12 +116,24 @@
       "title": "Приложения",
       "parent": "obosoblenie",
       "path": "topics/obosoblenie/prilozheniya.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "coral",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/prilozheniya/data.json",
+      "entry": "trainers/prilozheniya/app.js",
       "progressKey": "zapyatye-oge:prilozheniya:progress:v1",
-      "journalKey": "zapyatye-oge:prilozheniya:errors:v1"
+      "journalKey": "zapyatye-oge:prilozheniya:errors:v1",
+      "caption": "13 карточек",
+      "assets": [
+        "trainers/prilozheniya/core.js",
+        "trainers/prilozheniya/data.js",
+        "trainers/prilozheniya/styles.css",
+        "trainers/prilozheniya/panel.js",
+        "PRILOZHENIYA-REPORT.md",
+        "PRILOZHENIYA-EDITORIAL-REPORT.md",
+        "data/prilozheniya-editorial.json",
+        "data/prilozheniya-reserve.json",
+        "data/prilozheniya-excluded.json"
+      ]
     },
     {
       "id": "utochneniya",

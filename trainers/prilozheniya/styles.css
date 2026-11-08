@@ -1,0 +1,16 @@
+/* Inherit the existing buttons and cards; only this three-section panel is laid out here. */
+body[data-page="prilozheniya"] .masthead{padding:6px 18px}
+body[data-page="prilozheniya"] .page-heading{margin-top:0}
+body[data-page="prilozheniya"] main{padding-top:24px}
+body[data-page="prilozheniya"] .card,body[data-page="prilozheniya"] .source-block{scroll-margin-top:var(--trainer-controls-height)}
+body[data-page="prilozheniya"] .results-grid{grid-template-columns:minmax(0,1fr)}
+body[data-page="prilozheniya"] .control-panel{grid-template-columns:max-content max-content minmax(140px,180px)}
+body[data-page="prilozheniya"] .card-prompt{line-height:1.7}
+body[data-page="prilozheniya"] .sentence{font-size:26px;line-height:1.95;overflow-wrap:break-word}
+body[data-page="prilozheniya"] .section{gap:6px;padding-inline:9px}
+body[data-page="prilozheniya"] .panel-actions{gap:7px}
+body[data-page="prilozheniya"] .panel-actions .button{padding-inline:11px}
+.application-highlight{color:inherit;background:#d5efe5;border-radius:4px;box-shadow:inset 0 -2px #57a383;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.restored-comma{color:#176b56;font-weight:800}
+.application-explanation{margin-top:12px;padding:12px 14px;border:1px solid #b9d9c9;border-radius:12px;background:#f0faf4}
+.application-explanation ul{padding-left:20px;margin:8px 0 0}.application-explanation li+li{margin-top:8px}

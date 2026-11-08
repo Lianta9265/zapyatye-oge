@@ -1,0 +1,1221 @@
+{
+  "title": "Резерв приложений и синтаксические контрасты",
+  "items": [
+    {
+      "task": 5,
+      "id": "pril-5-27723-contrast",
+      "variantId": "27723",
+      "fipiId": "B12908",
+      "officialGuid": "24F65B0B4C1CBF9E482AE4228C23AA5D",
+      "sourceSnapshot": "data/raw/fipi-task5-page-01.html",
+      "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=27723",
+      "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+      "originalText": "Художественные изделия из берёсты (1) оригинальный вид народного творчества. Берёста привлекала внимание народных умельцев тем (2) что при обработке она сохраняла все свои свойства. Берёста (3) как материал для бытовых изделий привлекала народных мастеров с давних пор. Кузовки (4) короба для муки и мёда (5) лукошки и пастушечьи рожки (6) канаты для рыболовных снастей и солонки (7) всё это делалось из берёсты. А в строительстве берёсту использовали (8) в качестве изолятора от сырости. Благодаря водонепроницаемости и антисептическим свойствам берёста (9) предохраняла дерево от гниения.",
+      "displayText": "Художественные изделия из берёсты (1) оригинальный вид народного творчества. Берёста привлекала внимание народных умельцев тем (2) что при обработке она сохраняла все свои свойства. Берёста (3) как материал для бытовых изделий привлекала народных мастеров с давних пор. Кузовки (4) короба для муки и мёда (5) лукошки и пастушечьи рожки (6) канаты для рыболовных снастей и солонки (7) всё это делалось из берёсты. А в строительстве берёсту использовали (8) в качестве изолятора от сырости. Благодаря водонепроницаемости и антисептическим свойствам берёста (9) предохраняла дерево от гниения.",
+      "restoredText": "Художественные изделия из берёсты — оригинальный вид народного творчества. Берёста привлекала внимание народных умельцев тем, что при обработке она сохраняла все свои свойства. Берёста как материал для бытовых изделий привлекала народных мастеров с давних пор. Кузовки, короба для муки и мёда, лукошки и пастушечьи рожки, канаты для рыболовных снастей и солонки — всё это делалось из берёсты. А в строительстве берёсту использовали в качестве изолятора от сырости. Благодаря водонепроницаемости и антисептическим свойствам берёста предохраняла дерево от гниения.",
+      "reason": "Контрастный резерв: «как материал для бытовых изделий» имеет значение качества/роли («в качестве»), а не свободного приложения с причиной; «использовали в качестве изолятора» связано со сказуемым. Не выдаётся за подтверждённое приложение.",
+      "classification": "Контраст: оборот с как со значением «в качестве», не свободное приложение с дополнительной причиной.",
+      "normativeSource": "https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znaki-prepinaniya-pri-obosoblennykh-soglasovannykh-opredeleniyakh",
+      "scored": false,
+      "linguisticStatus": "reviewed-contrast"
+    },
+    {
+      "task": 4,
+      "variantId": "38340",
+      "status": "dash-only-reserve",
+      "reason": "Исходное правило прямо касается приложения, отделённого тире. В пяти предложениях нет самостоятельной задачи на запятые при приложении или обоснованной ловушки с необособленным приложением; весь вариант сохранён в резерве без замены тире.",
+      "cards": [
+        {
+          "id": "pril-4-38340-1",
+          "groupId": "pril-4-38340",
+          "task": 4,
+          "variantId": "38340",
+          "sentenceNumber": 1,
+          "originalText": "А.П. Чехов считал, что искусство писать – это искусство сокращать.",
+          "displayText": "А.П. Чехов считал(1) что искусство писать – это искусство сокращать.",
+          "sourceText": "А.П. Чехов считал(1) что искусство писать – это искусство сокращать.",
+          "restoredText": "А.П. Чехов считал, что искусство писать – это искусство сокращать.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1
+          ],
+          "positions": [
+            {
+              "offset": 17,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 17,
+              "displayOffset": 17
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "subordinate",
+            "nominal-predicate"
+          ],
+          "explanation": "«Искусство сокращать» — сказуемое придаточной части, не приложение к «искусство писать». Запятая вводит придаточное, тире разделяет подлежащее и сказуемое.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38340",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "12CE9F",
+          "officialGuid": "B51A6C5B0D47A38549081A3225836A91",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-05.html",
+          "originalRules": [
+            "Уточняющее обстоятельство обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире.",
+            "Согласованное приложение, стоящее после определяемого слова, отделяется тире."
+          ],
+          "originalAnswer": "413",
+          "examCorrespondence": {
+            "А": 4,
+            "Б": 1,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38340-2",
+          "groupId": "pril-4-38340",
+          "task": 4,
+          "variantId": "38340",
+          "sentenceNumber": 2,
+          "originalText": "Молодые деревья, поднявшиеся по краям дороги, давали спасительную тень от зноя, досаждавшего даже к вечеру, а ровно подстриженные кусты, спасая прохожих от любопытных взоров, усиливали прохладу.",
+          "displayText": "Молодые деревья(1) поднявшиеся по краям дороги(2) давали спасительную тень от зноя(3) досаждавшего даже к вечеру(4) а ровно подстриженные кусты(5) спасая прохожих от любопытных взоров(6) усиливали прохладу.",
+          "sourceText": "Молодые деревья(1) поднявшиеся по краям дороги(2) давали спасительную тень от зноя(3) досаждавшего даже к вечеру(4) а ровно подстриженные кусты(5) спасая прохожих от любопытных взоров(6) усиливали прохладу.",
+          "restoredText": "Молодые деревья, поднявшиеся по краям дороги, давали спасительную тень от зноя, досаждавшего даже к вечеру, а ровно подстриженные кусты, спасая прохожих от любопытных взоров, усиливали прохладу.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "positions": [
+            {
+              "offset": 15,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 15,
+              "displayOffset": 15
+            },
+            {
+              "offset": 44,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 44,
+              "displayOffset": 46
+            },
+            {
+              "offset": 78,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 78,
+              "displayOffset": 82
+            },
+            {
+              "offset": 106,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 4,
+              "index": 4,
+              "originalOffset": 106,
+              "displayOffset": 112
+            },
+            {
+              "offset": 135,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 5,
+              "index": 5,
+              "originalOffset": 135,
+              "displayOffset": 143
+            },
+            {
+              "offset": 173,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 6,
+              "index": 6,
+              "originalOffset": 173,
+              "displayOffset": 183
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "participial-definition",
+            "gerund",
+            "ssp"
+          ],
+          "explanation": "«Поднявшиеся…» и «досаждавшего…» — причастные определения, «спасая прохожих…» — деепричастный оборот. Запятая перед «а» разделяет части ССП. Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38340",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "12CE9F",
+          "officialGuid": "B51A6C5B0D47A38549081A3225836A91",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-05.html",
+          "originalRules": [
+            "Уточняющее обстоятельство обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире.",
+            "Согласованное приложение, стоящее после определяемого слова, отделяется тире."
+          ],
+          "originalAnswer": "413",
+          "examCorrespondence": {
+            "А": 4,
+            "Б": 1,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38340-3",
+          "groupId": "pril-4-38340",
+          "task": 4,
+          "variantId": "38340",
+          "sentenceNumber": 3,
+          "originalText": "В небе кружились хищные птицы ‒ стервятники с мощными клювами.",
+          "displayText": "В небе кружились хищные птицы ‒ стервятники с мощными клювами.",
+          "sourceText": "В небе кружились хищные птицы ‒ стервятники с мощными клювами.",
+          "restoredText": "В небе кружились хищные птицы ‒ стервятники с мощными клювами.",
+          "commaAnswers": [],
+          "punctuationKey": [],
+          "positions": [],
+          "applicationTypes": [
+            "isolated-dash"
+          ],
+          "distractorTypes": [
+            "dash-application"
+          ],
+          "explanation": "«Стервятники с мощными клювами» — распространённое согласованное приложение к птицам, присоединённое исходным тире. Тире сохранено; запятых при приложении в оригинале нет.",
+          "isolationReason": "Распространённое согласованное приложение после нарицательного определяемого слова, отделено тире.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38340",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "12CE9F",
+          "officialGuid": "B51A6C5B0D47A38549081A3225836A91",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-05.html",
+          "originalRules": [
+            "Уточняющее обстоятельство обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире.",
+            "Согласованное приложение, стоящее после определяемого слова, отделяется тире."
+          ],
+          "originalAnswer": "413",
+          "examCorrespondence": {
+            "А": 4,
+            "Б": 1,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [
+            {
+              "text": "стервятники с мощными клювами",
+              "start": 32,
+              "end": 61,
+              "type": "isolated-dash",
+              "head": "хищные птицы",
+              "explanation": "Распространённое согласованное приложение после нарицательного определяемого слова, отделено тире.",
+              "coordinateText": "originalText"
+            }
+          ],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38340-4",
+          "groupId": "pril-4-38340",
+          "task": 4,
+          "variantId": "38340",
+          "sentenceNumber": 4,
+          "originalText": "Внизу, у беспорядочно нагромождённых серых камней, и плещутся, и дышат горько-солёным воздухом волны прилива.",
+          "displayText": "Внизу(1) у беспорядочно нагромождённых серых камней(2) и плещутся(3) и дышат горько-солёным воздухом волны прилива.",
+          "sourceText": "Внизу(1) у беспорядочно нагромождённых серых камней(2) и плещутся(3) и дышат горько-солёным воздухом волны прилива.",
+          "restoredText": "Внизу, у беспорядочно нагромождённых серых камней, и плещутся, и дышат горько-солёным воздухом волны прилива.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3
+          ],
+          "positions": [
+            {
+              "offset": 5,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 5,
+              "displayOffset": 5
+            },
+            {
+              "offset": 49,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 49,
+              "displayOffset": 51
+            },
+            {
+              "offset": 61,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 61,
+              "displayOffset": 65
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "clarification",
+            "repeated-conjunction"
+          ],
+          "explanation": "«У беспорядочно нагромождённых серых камней» уточняет место «внизу»; последующая запятая связана с повторяющимся союзом «и». Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38340",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "12CE9F",
+          "officialGuid": "B51A6C5B0D47A38549081A3225836A91",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-05.html",
+          "originalRules": [
+            "Уточняющее обстоятельство обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире.",
+            "Согласованное приложение, стоящее после определяемого слова, отделяется тире."
+          ],
+          "originalAnswer": "413",
+          "examCorrespondence": {
+            "А": 4,
+            "Б": 1,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38340-5",
+          "groupId": "pril-4-38340",
+          "task": 4,
+          "variantId": "38340",
+          "sentenceNumber": 5,
+          "originalText": "Дорожная пыль, камни, деревянные заборы – всё раскалилось, дышало ленивым жаром.",
+          "displayText": "Дорожная пыль(1) камни(2) деревянные заборы – всё раскалилось(3) дышало ленивым жаром.",
+          "sourceText": "Дорожная пыль(1) камни(2) деревянные заборы – всё раскалилось(3) дышало ленивым жаром.",
+          "restoredText": "Дорожная пыль, камни, деревянные заборы – всё раскалилось, дышало ленивым жаром.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3
+          ],
+          "positions": [
+            {
+              "offset": 13,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 13,
+              "displayOffset": 13
+            },
+            {
+              "offset": 20,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 20,
+              "displayOffset": 22
+            },
+            {
+              "offset": 57,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 57,
+              "displayOffset": 61
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "enumeration",
+            "homogeneous-predicates"
+          ],
+          "explanation": "Пыль, камни и заборы — однородные подлежащие перед обобщающим «всё»; «раскалилось, дышало» — однородные сказуемые. Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38340",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "12CE9F",
+          "officialGuid": "B51A6C5B0D47A38549081A3225836A91",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-05.html",
+          "originalRules": [
+            "Уточняющее обстоятельство обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире.",
+            "Согласованное приложение, стоящее после определяемого слова, отделяется тире."
+          ],
+          "originalAnswer": "413",
+          "examCorrespondence": {
+            "А": 4,
+            "Б": 1,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        }
+      ]
+    },
+    {
+      "task": 4,
+      "variantId": "38346",
+      "status": "dash-only-reserve",
+      "reason": "Исходное правило прямо касается приложения, отделённого тире. В пяти предложениях нет самостоятельной задачи на запятые при приложении или обоснованной ловушки с необособленным приложением; весь вариант сохранён в резерве без замены тире.",
+      "cards": [
+        {
+          "id": "pril-4-38346-1",
+          "groupId": "pril-4-38346",
+          "task": 4,
+          "variantId": "38346",
+          "sentenceNumber": 1,
+          "originalText": "Ни в каком покровительстве сосна не нуждается, растёт там, где ничто не может расти.",
+          "displayText": "Ни в каком покровительстве сосна не нуждается(1) растёт там(2) где ничто не может расти.",
+          "sourceText": "Ни в каком покровительстве сосна не нуждается(1) растёт там(2) где ничто не может расти.",
+          "restoredText": "Ни в каком покровительстве сосна не нуждается, растёт там, где ничто не может расти.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2
+          ],
+          "positions": [
+            {
+              "offset": 45,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 45,
+              "displayOffset": 45
+            },
+            {
+              "offset": 57,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 57,
+              "displayOffset": 59
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "homogeneous-predicates",
+            "subordinate"
+          ],
+          "explanation": "Первая запятая разделяет однородные сказуемые «не нуждается» и «растёт» при общем подлежащем «сосна», вторая вводит придаточное «где…». Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38346",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "B28A6B",
+          "officialGuid": "D44F69AD1F5FB38B459932230F4F2D5D",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "В неполном предложении на месте пропуска члена предложения ставится тире.",
+            "Между частями сложного бессоюзного предложения ставится запятая.",
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире."
+          ],
+          "originalAnswer": "254",
+          "examCorrespondence": {
+            "А": 2,
+            "Б": 5,
+            "В": 4
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38346-2",
+          "groupId": "pril-4-38346",
+          "task": 4,
+          "variantId": "38346",
+          "sentenceNumber": 2,
+          "originalText": "Мир освещается солнцем, а человек – знанием.",
+          "displayText": "Мир освещается солнцем(1) а человек – знанием.",
+          "sourceText": "Мир освещается солнцем(1) а человек – знанием.",
+          "restoredText": "Мир освещается солнцем, а человек – знанием.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1
+          ],
+          "positions": [
+            {
+              "offset": 22,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 22,
+              "displayOffset": 22
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "elliptical",
+            "ssp"
+          ],
+          "explanation": "«Человек» — подлежащее, «знанием» — дополнение при пропущенном «освещается», обозначенном тире. Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38346",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "B28A6B",
+          "officialGuid": "D44F69AD1F5FB38B459932230F4F2D5D",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "В неполном предложении на месте пропуска члена предложения ставится тире.",
+            "Между частями сложного бессоюзного предложения ставится запятая.",
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире."
+          ],
+          "originalAnswer": "254",
+          "examCorrespondence": {
+            "А": 2,
+            "Б": 5,
+            "В": 4
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38346-3",
+          "groupId": "pril-4-38346",
+          "task": 4,
+          "variantId": "38346",
+          "sentenceNumber": 3,
+          "originalText": "Повсюду: в поле, в лесу, у реки – раздаются птичьи трели, возвещая начало весны.",
+          "displayText": "Повсюду: в поле(1) в лесу(2) у реки – раздаются птичьи трели(3) возвещая начало весны.",
+          "sourceText": "Повсюду: в поле(1) в лесу(2) у реки – раздаются птичьи трели(3) возвещая начало весны.",
+          "restoredText": "Повсюду: в поле, в лесу, у реки – раздаются птичьи трели, возвещая начало весны.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3
+          ],
+          "positions": [
+            {
+              "offset": 15,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 15,
+              "displayOffset": 15
+            },
+            {
+              "offset": 23,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 23,
+              "displayOffset": 25
+            },
+            {
+              "offset": 56,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 56,
+              "displayOffset": 60
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "enumerated-circumstances",
+            "gerund"
+          ],
+          "explanation": "«В поле, в лесу, у реки» — ряд обстоятельств после обобщающего «повсюду» между двоеточием и тире, а «возвещая…» — деепричастный оборот. Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38346",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "B28A6B",
+          "officialGuid": "D44F69AD1F5FB38B459932230F4F2D5D",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "В неполном предложении на месте пропуска члена предложения ставится тире.",
+            "Между частями сложного бессоюзного предложения ставится запятая.",
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире."
+          ],
+          "originalAnswer": "254",
+          "examCorrespondence": {
+            "А": 2,
+            "Б": 5,
+            "В": 4
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38346-4",
+          "groupId": "pril-4-38346",
+          "task": 4,
+          "variantId": "38346",
+          "sentenceNumber": 4,
+          "originalText": "В сторожке жил лесник – одинокий старик, у которого мы иногда оставались на ночлег.",
+          "displayText": "В сторожке жил лесник – одинокий старик(1) у которого мы иногда оставались на ночлег.",
+          "sourceText": "В сторожке жил лесник – одинокий старик(1) у которого мы иногда оставались на ночлег.",
+          "restoredText": "В сторожке жил лесник – одинокий старик, у которого мы иногда оставались на ночлег.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1
+          ],
+          "positions": [
+            {
+              "offset": 39,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 39,
+              "displayOffset": 39
+            }
+          ],
+          "applicationTypes": [
+            "isolated-dash"
+          ],
+          "distractorTypes": [
+            "dash-application",
+            "subordinate"
+          ],
+          "explanation": "«Одинокий старик» — приложение к леснику, присоединённое тире. Придаточное «у которого…» характеризует старика; запятая перед ним является внутренней границей сложного предложения, а не обособлением приложения. Тире не превращается в запятую.",
+          "isolationReason": "Приложение присоединено тире; зависимое определительное придаточное входит в его распространение.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38346",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "B28A6B",
+          "officialGuid": "D44F69AD1F5FB38B459932230F4F2D5D",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "В неполном предложении на месте пропуска члена предложения ставится тире.",
+            "Между частями сложного бессоюзного предложения ставится запятая.",
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире."
+          ],
+          "originalAnswer": "254",
+          "examCorrespondence": {
+            "А": 2,
+            "Б": 5,
+            "В": 4
+          },
+          "reviewNotes": [
+            "Придаточное входит в распространение приложения после тире; запятая перед «у которого» не заменяет границу обособления самого приложения."
+          ],
+          "applicationSpans": [
+            {
+              "text": "одинокий старик, у которого мы иногда оставались на ночлег",
+              "start": 24,
+              "end": 82,
+              "type": "isolated-dash",
+              "head": "лесник",
+              "explanation": "Приложение присоединено тире; зависимое определительное придаточное входит в его распространение.",
+              "coordinateText": "originalText"
+            }
+          ],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38346-5",
+          "groupId": "pril-4-38346",
+          "task": 4,
+          "variantId": "38346",
+          "sentenceNumber": 5,
+          "originalText": "Встанешь утром часа в четыре, выйдешь в сад: роса блестит на цветах, шумят птицы и насекомые, на небе ни облачка.",
+          "displayText": "Встанешь утром часа в четыре(1) выйдешь в сад: роса блестит на цветах(2) шумят птицы и насекомые(3) на небе ни облачка.",
+          "sourceText": "Встанешь утром часа в четыре(1) выйдешь в сад: роса блестит на цветах(2) шумят птицы и насекомые(3) на небе ни облачка.",
+          "restoredText": "Встанешь утром часа в четыре, выйдешь в сад: роса блестит на цветах, шумят птицы и насекомые, на небе ни облачка.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3
+          ],
+          "positions": [
+            {
+              "offset": 28,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 28,
+              "displayOffset": 28
+            },
+            {
+              "offset": 67,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 67,
+              "displayOffset": 69
+            },
+            {
+              "offset": 92,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 92,
+              "displayOffset": 96
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "bsp",
+            "homogeneous-predicates"
+          ],
+          "explanation": "В первой части перечисляются действия «встанешь, выйдешь», после двоеточия — наблюдаемые явления. Существительные относятся к разным сообщениям и приложений не образуют.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38346",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "B28A6B",
+          "officialGuid": "D44F69AD1F5FB38B459932230F4F2D5D",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "В неполном предложении на месте пропуска члена предложения ставится тире.",
+            "Между частями сложного бессоюзного предложения ставится запятая.",
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире."
+          ],
+          "originalAnswer": "254",
+          "examCorrespondence": {
+            "А": 2,
+            "Б": 5,
+            "В": 4
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        }
+      ]
+    },
+    {
+      "task": 4,
+      "variantId": "38348",
+      "status": "dash-only-reserve",
+      "reason": "Исходное правило прямо касается приложения, отделённого тире. В пяти предложениях нет самостоятельной задачи на запятые при приложении или обоснованной ловушки с необособленным приложением; весь вариант сохранён в резерве без замены тире.",
+      "cards": [
+        {
+          "id": "pril-4-38348-1",
+          "groupId": "pril-4-38348",
+          "task": 4,
+          "variantId": "38348",
+          "sentenceNumber": 1,
+          "originalText": "Большой Императорский дворец в Царском селе имел уникальную достопримечательность – Янтарную комнату.",
+          "displayText": "Большой Императорский дворец в Царском селе имел уникальную достопримечательность – Янтарную комнату.",
+          "sourceText": "Большой Императорский дворец в Царском селе имел уникальную достопримечательность – Янтарную комнату.",
+          "restoredText": "Большой Императорский дворец в Царском селе имел уникальную достопримечательность – Янтарную комнату.",
+          "commaAnswers": [],
+          "punctuationKey": [],
+          "positions": [],
+          "applicationTypes": [
+            "isolated-dash"
+          ],
+          "distractorTypes": [
+            "dash-application"
+          ],
+          "explanation": "«Янтарную комнату» — распространённое согласованное приложение, раскрывающее название достопримечательности и присоединённое тире. Исходное тире сохраняется; запятых при приложении нет.",
+          "isolationReason": "Приложение поясняет определяемое сочетание после него; в оригинале отделено тире.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38348",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "EDAA6A",
+          "officialGuid": "DC9979851210A1FC4108A978331C6AB5",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире.",
+            "Обстоятельство, выраженное деепричастным оборотом, обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире."
+          ],
+          "originalAnswer": "123",
+          "examCorrespondence": {
+            "А": 1,
+            "Б": 2,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [
+            {
+              "text": "Янтарную комнату",
+              "start": 84,
+              "end": 100,
+              "type": "isolated-dash",
+              "head": "уникальную достопримечательность",
+              "explanation": "Приложение поясняет определяемое сочетание после него; в оригинале отделено тире.",
+              "coordinateText": "originalText"
+            }
+          ],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38348-2",
+          "groupId": "pril-4-38348",
+          "task": 4,
+          "variantId": "38348",
+          "sentenceNumber": 2,
+          "originalText": "Опираясь на разработанную им систему химических элементов, Д.И. Менделеев предсказал существование нескольких неизвестных ещё химических элементов, описал их важнейшие свойства.",
+          "displayText": "Опираясь на разработанную им систему химических элементов(1) Д.И. Менделеев предсказал существование нескольких неизвестных ещё химических элементов(2) описал их важнейшие свойства.",
+          "sourceText": "Опираясь на разработанную им систему химических элементов(1) Д.И. Менделеев предсказал существование нескольких неизвестных ещё химических элементов(2) описал их важнейшие свойства.",
+          "restoredText": "Опираясь на разработанную им систему химических элементов, Д.И. Менделеев предсказал существование нескольких неизвестных ещё химических элементов, описал их важнейшие свойства.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2
+          ],
+          "positions": [
+            {
+              "offset": 57,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 57,
+              "displayOffset": 57
+            },
+            {
+              "offset": 146,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 146,
+              "displayOffset": 148
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "gerund",
+            "homogeneous-predicates"
+          ],
+          "explanation": "«Опираясь…» — деепричастный оборот. Запятая после «элементов» перед «описал» разделяет однородные сказуемые; приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38348",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "EDAA6A",
+          "officialGuid": "DC9979851210A1FC4108A978331C6AB5",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире.",
+            "Обстоятельство, выраженное деепричастным оборотом, обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире."
+          ],
+          "originalAnswer": "123",
+          "examCorrespondence": {
+            "А": 1,
+            "Б": 2,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38348-3",
+          "groupId": "pril-4-38348",
+          "task": 4,
+          "variantId": "38348",
+          "sentenceNumber": 3,
+          "originalText": "Память – это способность человека запечатлевать, сохранять и воспроизводить то, что он ранее воспринимал, переживал, делал, думал.",
+          "displayText": "Память – это способность человека запечатлевать(1) сохранять и воспроизводить то(2) что он ранее воспринимал(3) переживал(4) делал(5) думал.",
+          "sourceText": "Память – это способность человека запечатлевать(1) сохранять и воспроизводить то(2) что он ранее воспринимал(3) переживал(4) делал(5) думал.",
+          "restoredText": "Память – это способность человека запечатлевать, сохранять и воспроизводить то, что он ранее воспринимал, переживал, делал, думал.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "positions": [
+            {
+              "offset": 47,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 47,
+              "displayOffset": 47
+            },
+            {
+              "offset": 78,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 78,
+              "displayOffset": 80
+            },
+            {
+              "offset": 104,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 104,
+              "displayOffset": 108
+            },
+            {
+              "offset": 115,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 4,
+              "index": 4,
+              "originalOffset": 115,
+              "displayOffset": 121
+            },
+            {
+              "offset": 122,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 5,
+              "index": 5,
+              "originalOffset": 122,
+              "displayOffset": 130
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "nominal-predicate",
+            "subordinate",
+            "homogeneous-members"
+          ],
+          "explanation": "«Способность…» — именная часть сказуемого при «память»; остальные запятые относятся к однородным инфинитивам, придаточному и его однородным сказуемым. Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38348",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "EDAA6A",
+          "officialGuid": "DC9979851210A1FC4108A978331C6AB5",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире.",
+            "Обстоятельство, выраженное деепричастным оборотом, обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире."
+          ],
+          "originalAnswer": "123",
+          "examCorrespondence": {
+            "А": 1,
+            "Б": 2,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38348-4",
+          "groupId": "pril-4-38348",
+          "task": 4,
+          "variantId": "38348",
+          "sentenceNumber": 4,
+          "originalText": "Бледное небо синело, звёзды то мигали слабым светом, то исчезали.",
+          "displayText": "Бледное небо синело(1) звёзды то мигали слабым светом(2) то исчезали.",
+          "sourceText": "Бледное небо синело(1) звёзды то мигали слабым светом(2) то исчезали.",
+          "restoredText": "Бледное небо синело, звёзды то мигали слабым светом, то исчезали.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2
+          ],
+          "positions": [
+            {
+              "offset": 19,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 19,
+              "displayOffset": 19
+            },
+            {
+              "offset": 51,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 51,
+              "displayOffset": 53
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "bsp",
+            "repeated-conjunction"
+          ],
+          "explanation": "Первая запятая разделяет части бессоюзного предложения; следующая — однородные сказуемые с повторяющимся «то». Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38348",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "EDAA6A",
+          "officialGuid": "DC9979851210A1FC4108A978331C6AB5",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире.",
+            "Обстоятельство, выраженное деепричастным оборотом, обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире."
+          ],
+          "originalAnswer": "123",
+          "examCorrespondence": {
+            "А": 1,
+            "Б": 2,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        },
+        {
+          "id": "pril-4-38348-5",
+          "groupId": "pril-4-38348",
+          "task": 4,
+          "variantId": "38348",
+          "sentenceNumber": 5,
+          "originalText": "Над полем, засеянным рожью, медленно кружит сова – грызуны попрятались в траве, замерли.",
+          "displayText": "Над полем(1) засеянным рожью(2) медленно кружит сова – грызуны попрятались в траве(3) замерли.",
+          "sourceText": "Над полем(1) засеянным рожью(2) медленно кружит сова – грызуны попрятались в траве(3) замерли.",
+          "restoredText": "Над полем, засеянным рожью, медленно кружит сова – грызуны попрятались в траве, замерли.",
+          "commaAnswers": [],
+          "punctuationKey": [
+            1,
+            2,
+            3
+          ],
+          "positions": [
+            {
+              "offset": 9,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 1,
+              "index": 1,
+              "originalOffset": 9,
+              "displayOffset": 9
+            },
+            {
+              "offset": 26,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 2,
+              "index": 2,
+              "originalOffset": 26,
+              "displayOffset": 28
+            },
+            {
+              "offset": 78,
+              "punctuation": ",",
+              "kind": "original-comma",
+              "originalCommaNumber": 3,
+              "index": 3,
+              "originalOffset": 78,
+              "displayOffset": 82
+            }
+          ],
+          "applicationTypes": [],
+          "distractorTypes": [
+            "participial-definition",
+            "bsp",
+            "homogeneous-predicates"
+          ],
+          "explanation": "«Засеянным рожью» — причастное определение к полю; тире разделяет предикативные части, а запятая после «траве» — однородные сказуемые. Приложений нет.",
+          "isolationReason": "Приложений нет; запятые относятся к другим синтаксическим конструкциям.",
+          "linguisticStatus": "reviewed",
+          "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=38348",
+          "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+          "fipiId": "EDAA6A",
+          "officialGuid": "DC9979851210A1FC4108A978331C6AB5",
+          "officialVerified": true,
+          "sourceSnapshot": "data/raw/fipi-task4-page-06.html",
+          "originalRules": [
+            "Согласованное приложение, стоящее после определяемого слова, выделяется тире.",
+            "Обстоятельство, выраженное деепричастным оборотом, обособляется.",
+            "Между подлежащим и сказуемым, выраженными именами существительными в именительном падеже, при нулевой связке ставится тире."
+          ],
+          "originalAnswer": "123",
+          "examCorrespondence": {
+            "А": 1,
+            "Б": 2,
+            "В": 3
+          },
+          "reviewNotes": [],
+          "applicationSpans": [],
+          "unisolatedTraps": [],
+          "commaComments": []
+        }
+      ]
+    },
+    {
+      "task": 3,
+      "id": "pril-3-28084-3",
+      "variantId": "28084",
+      "sentenceNumber": 3,
+      "originalText": "Особенно страшные разрушения производят гигантские морские волны – цунами.",
+      "sourceText": "Особенно страшные разрушения производят гигантские морские волны – цунами.",
+      "displayText": "Особенно страшные разрушения производят гигантские морские волны – цунами.",
+      "restoredText": "Особенно страшные разрушения производят гигантские морские волны – цунами.",
+      "commaAnswers": [],
+      "punctuationKey": [],
+      "positions": [],
+      "applicationTypes": [
+        "обособленное одиночное приложение после определяемого существительного",
+        "обособление тире"
+      ],
+      "distractorTypes": [
+        "тире при приложении не заменяется запятой"
+      ],
+      "explanation": "Одиночное приложение «цунами» поясняет сочетание «гигантские морские волны» и присоединено тире в конце предложения. Задачи на запятые или их отсутствие у необособленного приложения здесь нет: исходное тире нельзя подменять цифровой запятой.",
+      "isolationReason": "Одиночное приложение «цунами» поясняет сочетание «гигантские морские волны» и присоединено тире в конце предложения. Задачи на запятые или их отсутствие у необособленного приложения здесь нет: исходное тире нельзя подменять цифровой запятой.",
+      "linguisticStatus": "reviewed-distractor",
+      "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=28084",
+      "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+      "fipiId": "DE5B28",
+      "officialGuid": "67F8C4B1754C8F704A2461172A7173CC",
+      "officialVerified": true,
+      "sourceSnapshot": "data/raw/vvodnye-task23-fipi-task3-page-06.html",
+      "statement": "Предложение 3 осложнено обособленным нераспространённым приложением.",
+      "originalStatement": "Предложение 3 осложнено обособленным нераспространённым приложением.",
+      "statementNumber": 3,
+      "statementTrue": true,
+      "originalAnswer": "135",
+      "statements": [
+        "Предложение 1 осложнено обособленным определением, выраженным причастным оборотом, и однородными сказуемыми.",
+        "Предложение 2 содержит 3 (три) грамматические основы.",
+        "Предложение 3 осложнено обособленным нераспространённым приложением.",
+        "Предложение 4 сложное с союзной сочинительной и подчинительной связью.",
+        "Предложение 5 простое, осложнённое однородными членами предложения с обобщающим словом."
+      ],
+      "fullOriginalText": "(1)Волны, наблюдаемые в природе, могут переносить огромную энергию и нередко являются причиной разрушений. (2)Так, большой мощностью обладают морские волны: они бывают причиной гибели кораблей в море, размывания берегов, разрушения причалов. (3)Особенно страшные разрушения производят гигантские морские волны – цунами. (4)Энергию морских волн можно использовать и на благо человека, если создать устройство, позволяющее преобразовывать её в электрическую энергию. (5)Такие устройства позволили бы более экономно использовать невозобновляемые источники энергии: нефть, газ, каменный уголь.",
+      "reviewNotes": [
+        "Истинная характеристика сохранена в резерве темы приложений: предложение проверяет тире, а не запятые."
+      ],
+      "applicationSpans": [
+        {
+          "text": "цунами",
+          "start": 67,
+          "end": 73
+        }
+      ],
+      "unisolatedTraps": [],
+      "zeroPositionReason": "Одиночное приложение «цунами» поясняет сочетание «гигантские морские волны» и присоединено тире в конце предложения. Задачи на запятые или их отсутствие у необособленного приложения здесь нет: исходное тире нельзя подменять цифровой запятой.",
+      "examKeySource": "Опубликованный общий ключ зеркала, независимо проверенный синтаксическим разбором; не выгрузка официальных ответов ФИПИ.",
+      "scored": false,
+      "reserveReason": "Одиночное приложение «цунами» поясняет сочетание «гигантские морские волны» и присоединено тире в конце предложения. Задачи на запятые или их отсутствие у необособленного приложения здесь нет: исходное тире нельзя подменять цифровой запятой."
+    },
+    {
+      "task": 3,
+      "id": "pril-3-43400-3",
+      "variantId": "43400",
+      "sentenceNumber": 3,
+      "originalText": "В сибирской тайге растут уникальные хвойные деревья – сибирская лиственница и сибирский кедр.",
+      "sourceText": "В сибирской тайге растут уникальные хвойные деревья – сибирская лиственница и сибирский кедр.",
+      "displayText": "В сибирской тайге растут уникальные хвойные деревья – сибирская лиственница и сибирский кедр.",
+      "restoredText": "В сибирской тайге растут уникальные хвойные деревья – сибирская лиственница и сибирский кедр.",
+      "commaAnswers": [],
+      "punctuationKey": [],
+      "positions": [],
+      "applicationTypes": [
+        "обособленное распространённое согласованное приложение",
+        "обособление тире"
+      ],
+      "distractorTypes": [
+        "тире при приложении не заменяется запятой"
+      ],
+      "explanation": "Поясняющее приложение «сибирская лиственница и сибирский кедр» конкретизирует названия хвойных деревьев и отделено исходным тире. Утверждение верно. В этом предложении нет содержательной позиции запятой при приложении, поэтому оно сохранено в резерве без назначения искусственного цифрового ключа.",
+      "isolationReason": "Поясняющее приложение «сибирская лиственница и сибирский кедр» конкретизирует названия хвойных деревьев и отделено исходным тире. Утверждение верно. В этом предложении нет содержательной позиции запятой при приложении, поэтому оно сохранено в резерве без назначения искусственного цифрового ключа.",
+      "linguisticStatus": "reviewed-distractor",
+      "sourceUrl": "https://rus-oge.sdamgia.ru/problem?id=43400",
+      "officialSourceUrl": "https://oge.fipi.ru/bank/index.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416",
+      "fipiId": "70DF84",
+      "officialGuid": "F30721953B4FAB544C8183CCEE6A7433",
+      "officialVerified": true,
+      "sourceSnapshot": "data/raw/vvodnye-task23-fipi-task3-page-07.html",
+      "statement": "Предложение 3 осложнено обособленным согласованным приложением.",
+      "originalStatement": "Предложение 3 осложнено обособленным согласованным приложением.",
+      "statementNumber": 3,
+      "statementTrue": true,
+      "originalAnswer": "13",
+      "statements": [
+        "Вторая часть сложного предложения 1 осложнена однородными членами предложения.",
+        "В предложении 2 содержится простое глагольное сказуемое.",
+        "Предложение 3 осложнено обособленным согласованным приложением.",
+        "Вторая часть сложного предложения 4 представлена односоставным безличным предложением.",
+        "Предложение 5 бессоюзное сложное предложение."
+      ],
+      "fullOriginalText": "(1)Полоса таёжных лесов протянулась по всему Северному полушарию: есть они и в Евразии, и в Северной Америке. (2)И всё же самые обширные таёжные леса расположены в азиатской части России, а именно в Сибири. (3)В сибирской тайге растут уникальные хвойные деревья – сибирская лиственница и сибирский кедр. (4)Древесина сибирской лиственницы не подвержена гниению, так что это дерево используется для изготовления изделий, которые будут находиться во влажной среде: его применяют в судостроении, именно из него сделаны вбитые в морское дно сваи, на которых стоит итальянский город Венеция. (5)Сибирский кедр даёт вкусные и полезные кедровые орехи, сбор которых всегда являлся для сибиряков доходным промыслом.",
+      "reviewNotes": [
+        "Сохранён как тире-случай, не включён в основную ленту запятых."
+      ],
+      "applicationSpans": [
+        {
+          "text": "сибирская лиственница и сибирский кедр",
+          "start": 54,
+          "end": 92
+        }
+      ],
+      "unisolatedTraps": [],
+      "zeroPositionReason": "Поясняющее приложение «сибирская лиственница и сибирский кедр» конкретизирует названия хвойных деревьев и отделено исходным тире. Утверждение верно. В этом предложении нет содержательной позиции запятой при приложении, поэтому оно сохранено в резерве без назначения искусственного цифрового ключа.",
+      "examKeySource": "Опубликованный общий ключ зеркала, независимо проверенный синтаксическим разбором; не выгрузка официальных ответов ФИПИ.",
+      "scored": false,
+      "reserveReason": "Поясняющее приложение «сибирская лиственница и сибирский кедр» конкретизирует названия хвойных деревьев и отделено исходным тире. Утверждение верно. В этом предложении нет содержательной позиции запятой при приложении, поэтому оно сохранено в резерве без назначения искусственного цифрового ключа."
+    }
+  ]
+}
