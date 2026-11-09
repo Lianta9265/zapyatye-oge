@@ -207,12 +207,22 @@
       "title": "Обращения",
       "parent": "obosoblenie",
       "path": "topics/obosoblenie/obrashcheniya.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "emerald",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/obrashcheniya/data.json",
+      "entry": "trainers/obrashcheniya/app.js",
       "progressKey": "zapyatye-oge:obrashcheniya:progress:v1",
-      "journalKey": "zapyatye-oge:obrashcheniya:errors:v1"
+      "journalKey": "zapyatye-oge:obrashcheniya:errors:v1",
+      "caption": "6 карточек",
+      "assets": [
+        "trainers/obrashcheniya/core.js",
+        "trainers/obrashcheniya/data.js",
+        "trainers/obrashcheniya/panel.js",
+        "trainers/obrashcheniya/styles.css",
+        "trainers/obrashcheniya/highlights.js",
+        "OBRASHCHENIYA-REPORT.md",
+        "data/obrashcheniya-editorial.json"
+      ]
     },
     {
       "id": "sravneniya",
