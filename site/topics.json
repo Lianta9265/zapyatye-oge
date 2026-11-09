@@ -61,12 +61,22 @@
       "id": "ssp",
       "title": "ССП",
       "path": "topics/ssp.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "emerald",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/ssp/data.json",
+      "entry": "trainers/ssp/app.js",
       "progressKey": "zapyatye-oge:ssp:progress:v1",
-      "journalKey": "zapyatye-oge:ssp:errors:v1"
+      "journalKey": "zapyatye-oge:ssp:errors:v1",
+      "caption": "65 карточек",
+      "assets": [
+        "trainers/ssp/core.js",
+        "trainers/ssp/data.js",
+        "trainers/ssp/styles.css",
+        "trainers/ssp/panel.js",
+        "SSP-REPORT.md",
+        "data/ssp-editorial.json",
+        "trainers/ssp/bases.js"
+      ]
     },
     {
       "id": "bsp",
