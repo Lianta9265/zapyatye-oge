@@ -140,12 +140,22 @@
       "title": "Определения",
       "parent": "obosoblenie",
       "path": "topics/obosoblenie/opredeleniya.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "honey",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/opredeleniya/data.json",
+      "entry": "trainers/opredeleniya/app.js",
       "progressKey": "zapyatye-oge:opredeleniya:progress:v1",
-      "journalKey": "zapyatye-oge:opredeleniya:errors:v1"
+      "journalKey": "zapyatye-oge:opredeleniya:errors:v1",
+      "caption": "80 карточек",
+      "assets": [
+        "trainers/opredeleniya/core.js",
+        "trainers/opredeleniya/data.js",
+        "trainers/opredeleniya/panel.js",
+        "trainers/opredeleniya/styles.css",
+        "trainers/opredeleniya/highlights.js",
+        "OPREDELENIYA-REPORT.md",
+        "data/opredeleniya-editorial.json"
+      ]
     },
     {
       "id": "prilozheniya",
