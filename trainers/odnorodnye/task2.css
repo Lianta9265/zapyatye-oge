@@ -1,0 +1,27 @@
+/* Task 2 only: typed word selection, independent of comma exercises. */
+body[data-page="odnorodnye"].word-practice{overflow-anchor:none}
+body[data-page="odnorodnye"] .card.task-2{overflow:clip}
+body[data-page="odnorodnye"] .task-2 .card-prompt{display:block;margin:0 0 14px;padding:9px 14px;border:1.5px solid #54a49d;border-radius:12px;background:#eff9f5;color:#174f4c;font-size:19px;font-weight:650;line-height:1.4}
+body[data-page="odnorodnye"] .task-2 .source-block,body[data-page="odnorodnye"] .task-2 .main-word{scroll-margin-top:calc(var(--trainer-controls-height, 165px) + 76px)}
+.task-tab-detail{display:inline-flex;align-items:center;gap:6px}
+@media(max-width:600px){body[data-page="odnorodnye"] .sections{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:5px}body[data-page="odnorodnye"] .sections .section{flex-direction:column;gap:0;padding:4px 3px;min-width:0;height:auto;min-height:56px}body[data-page="odnorodnye"] .sections .task-tab-text{line-height:1.4}.task-tab-detail{line-height:1.4}}
+.main-tools{position:sticky;top:calc(var(--trainer-controls-height, 165px) - 18px);z-index:4;display:flex;flex-wrap:wrap;gap:10px;margin:0 0 20px;padding:7px 9px;border:1px solid #b7d4c8;border-radius:14px;background:#f8fcf8;box-shadow:0 3px 10px #31594a24}
+.main-tools.is-checked{position:static}
+.main-tools .main-tool{position:relative;min-height:44px;padding:7px 16px;border:2px solid #c5a568;border-radius:13px;color:#fff;font-size:18px;font-weight:750;box-shadow:inset 0 0 0 2px #ffffff80,inset 0 8px 12px #ffffff16,0 4px 0 #234e4930,0 6px 13px #49374b18;transition:transform .16s,box-shadow .16s}
+.main-tools .tool-subject{background:linear-gradient(#218781,#146761)}
+.main-tools .tool-predicate{background:linear-gradient(#825476,#603b59)}
+.main-tools .main-tool.active{outline:3px solid #e1b65b;outline-offset:3px;box-shadow:inset 0 0 0 2px #fff,0 4px 0 #4f41452e,0 0 13px #d9b85a55}
+@media(hover:hover){.main-tools .main-tool:hover:not(:disabled){transform:translateY(-2px);filter:brightness(1.08)}}
+body[data-page="odnorodnye"] .task-2 .main-word{display:inline;padding:2px 0;margin:0;border:0;border-radius:4px;box-shadow:none;background:transparent;color:inherit;font:inherit;line-height:inherit;white-space:normal;overflow-wrap:anywhere;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background-color .12s,box-shadow .12s;opacity:1}
+body[data-page="odnorodnye"] .task-2 .main-word:focus-visible{outline:3px solid #bc8a36;outline-offset:1px}
+@media(hover:hover){body[data-page="odnorodnye"] .task-2 .main-word:not(.role-subject):not(.role-predicate):hover:not(:disabled){background:#e7e5d8;box-shadow:inset 0 -2px #b39460}}
+body[data-page="odnorodnye"] .task-2 .main-word.role-subject{color:#164f4a;background:#c4e8e0;box-shadow:inset 0 -3px #237e75,inset 0 1px #6ba69b}
+body[data-page="odnorodnye"] .task-2 .main-word.role-predicate{color:#5c3553;background:#ecdcea;box-shadow:inset 0 -3px #815172,inset 0 1px #b58ba9}
+body[data-page="odnorodnye"] .task-2 .main-word.word-correct{outline:2px solid #29824f;outline-offset:1px}
+body[data-page="odnorodnye"] .task-2 .main-word.word-extra,body[data-page="odnorodnye"] .task-2 .main-word.word-wrong-role{outline:2px solid #c45249;outline-offset:1px}
+body[data-page="odnorodnye"] .task-2 .main-word.word-missing.role-subject{outline:2px dashed #237e75;outline-offset:1px}
+body[data-page="odnorodnye"] .task-2 .main-word.word-missing.role-predicate{outline:2px dashed #815172;outline-offset:1px}
+body[data-page="odnorodnye"] .task-2 .main-word:disabled{cursor:default}
+.role-caption.subject{color:#19665f}.role-caption.predicate{color:#704362}.main-legend{font-size:14px;line-height:1.7;color:#50615b}
+@media(max-width:600px){body[data-page="odnorodnye"] .task-2 .card-prompt{font-size:18px;line-height:1.4;padding:8px 10px}.main-tools{gap:6px;margin-bottom:18px;padding:6px}.main-tools .main-tool{padding-inline:7px}.task-2 .answer-lines dd{overflow-wrap:anywhere}}
+@media(max-width:350px){.task-2 .main-tools{margin-inline:-8px}}

@@ -50,12 +50,29 @@
       "id": "odnorodnye",
       "title": "Однородные",
       "path": "topics/odnorodnye.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "plum",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/odnorodnye/data.json",
+      "entry": "trainers/odnorodnye/app.js",
       "progressKey": "zapyatye-oge:odnorodnye:progress:v1",
-      "journalKey": "zapyatye-oge:odnorodnye:errors:v1"
+      "journalKey": "zapyatye-oge:odnorodnye:errors:v1",
+      "caption": "150 карточек",
+      "assets": [
+        "trainers/odnorodnye/core.js",
+        "trainers/odnorodnye/data.js",
+        "trainers/odnorodnye/panel.js",
+        "trainers/odnorodnye/styles.css",
+        "trainers/odnorodnye/rows.js",
+        "ODNORODNYE-REPORT.md",
+        "data/od-editorial.json",
+        "trainers/odnorodnye/task2-data.json",
+        "trainers/odnorodnye/task2-data.js",
+        "trainers/odnorodnye/task2-core.js",
+        "trainers/odnorodnye/task2-ui.js",
+        "trainers/odnorodnye/mixed-core.js",
+        "trainers/odnorodnye/task2.css",
+        "ODNORODNYE-TASK2-REPORT.md"
+      ]
     },
     {
       "id": "ssp",

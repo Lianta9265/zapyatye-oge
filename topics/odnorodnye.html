@@ -4,18 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#146c70">
-  <meta name="description" content="Запятые ОГЭ — выбор пунктуационной темы и интерактивные тренажёры по русскому языку.">
-  <title>Однородные · Запятые ОГЭ</title>
+  <meta name="description" content="Тренажёр ОГЭ: запятые между частями однородных членов предложения. Задания 2, 4 и 5.">
+  <title>ОГЭ · Однородные члены предложения</title>
+  <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../site.css">
   <link rel="stylesheet" href="../controls.css">
+  <link rel="stylesheet" href="../compact.css">
+  <script defer src="../trainers/odnorodnye/data.js"></script>
+  <script defer src="../trainers/odnorodnye/core.js"></script>
+  <script defer src="../trainers/odnorodnye/rows.js"></script>
+  <script defer src="../trainers/odnorodnye/task2-data.js"></script>
+  <script defer src="../trainers/odnorodnye/task2-core.js"></script>
+  <script defer src="../trainers/odnorodnye/mixed-core.js"></script>
+  <script defer src="../trainers/odnorodnye/task2-ui.js"></script>
+  <script defer src="../trainers/odnorodnye/app.js"></script>
+  <link rel="stylesheet" href="../trainers/odnorodnye/task2.css">
+  <link rel="stylesheet" href="../trainers/odnorodnye/styles.css">
+  <script defer src="../trainers/odnorodnye/panel.js"></script>
 </head>
-<body class="site-page" data-page="odnorodnye">
-  <a class="portal-skip" href="#content">К содержимому</a>
-  <header class="portal-header"><a class="portal-brand" href="../index.html" aria-label="Запятые ОГЭ — главная"><span class="portal-brand-mark" aria-hidden="true">,</span><span>Запятые ОГЭ</span></a><a class="portal-back portal-home-button" href="../index.html"><svg class="home-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5M5.5 9v11h5v-6h3v6h5V9"/></svg> На главную</a></header>
-  <main class="portal-main" id="content">
-    <nav class="portal-breadcrumbs" aria-label="Хлебные крошки"><a href="../index.html">Главная</a><span aria-hidden="true">/</span><span aria-current="page">Однородные</span></nav>
-    <section class="coming-soon theme-plum" aria-labelledby="topic-title"><span class="coming-ornament" aria-hidden="true">,</span><h1 id="topic-title">Однородные</h1><p class="coming-status">Раздел готовится</p><div class="coming-divider" aria-hidden="true"><span></span><i>✦</i><span></span></div><div class="coming-actions"><a class="portal-back portal-home-button" href="../index.html"><svg class="home-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5M5.5 9v11h5v-6h3v6h5V9"/></svg> На главную</a></div></section>
+<body data-page="odnorodnye">
+  <a class="skip" href="#cards">К заданиям</a>
+  <header class="masthead"><div class="brand"><span class="brand-mark" aria-hidden="true">;</span><span>Русский язык<span class="brand-divider">/</span>ОГЭ</span></div><span id="save-status" role="status" class="save-status">Прогресс сохраняется автоматически</span></header>
+  <div class="control-shell"><div class="control-panel"><nav class="trainer-return" aria-label="Навигация сайта"><a class="portal-back portal-home-button" href="../index.html"><svg class="home-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5M5.5 9v11h5v-6h3v6h5V9"/></svg> На главную</a><span class="trainer-breadcrumb">Запятые ОГЭ <span aria-hidden="true">/</span> Однородные члены предложения</span></nav>
+    <nav id="sections" class="sections" aria-label="Разделы"><button data-task="5" class="section active" aria-current="page"><span class="task-tab-text">Задание</span><span class="task-tab-detail"><span>5</span> <span id="count-5" class="count">75</span></span></button><button data-task="4" class="section"><span class="task-tab-text">Задание</span><span class="task-tab-detail"><span>4</span> <span id="count-4" class="count">17</span></span></button><button data-task="2" class="section"><span class="task-tab-text">Задание</span><span class="task-tab-detail"><span>2</span> <span id="count-2" class="count">58</span></span></button></nav>
+    <div class="compact-progress"><div><span>Пройдено</span><strong id="done-total">0 / 150</strong></div><progress id="progress" value="0" max="150" aria-label="Пройдено вариантов"></progress></div>
+    <details class="actions-menu" id="actions-menu" open><summary class="actions-toggle" id="actions-toggle" aria-controls="panel-command-list" aria-expanded="true">Действия <svg class="actions-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><div class="panel-actions" id="panel-command-list"><button id="resume" class="button quiet continue-button"><span id="resume-label">Продолжить</span><svg class="continue-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5"/></svg></button><button id="journal-open" class="button quiet">Журнал <span id="error-count" class="count coral-count">0</span></button><button id="repeat-errors" class="button quiet">Повторить ошибки</button><button id="reset" class="button quiet reset-button" aria-label="Сбросить прохождение">Сброс</button></div></details>
+  </div></div>
+  <main id="main">
+    <div class="page-heading"><div><span class="eyebrow">ОДНОРОДНЫЕ ЧЛЕНЫ ПРЕДЛОЖЕНИЯ</span><h1><span>Однородные члены предложения</span></h1><p>Отметь цифры, на месте которых должны стоять запятые между однородными членами предложения.</p></div></div>
+    <p id="resume-status" class="resume-status" role="status" tabindex="-1" hidden>Все варианты пройдены</p>
+    <div class="practice-guide"><span class="guide-item"><span class="position-example">1</span> однородные члены</span><span class="guide-hint">Повторное нажатие отменяет выбор</span></div>
+    <p id="migration-note" class="migration-note" hidden></p>
+    <p class="method-note">Если подходящих позиций нет, оставь цифры невыбранными.</p>
+    <section class="feed" aria-labelledby="section-title">
+      <div class="feed-heading"><div><span class="eyebrow" id="section-kicker">ПУНКТУАЦИОННЫЕ ПРАВИЛА</span><h2 id="section-title">Задание 5</h2></div><dl class="scores"><div><dt>Запятые</dt><dd id="comma-score">0 / 0</dd></div><div class="scores-caption">вариантов верно / проверено</div></dl></div>
+      <div class="toolbar"><div class="filters" role="group" aria-label="Фильтр карточек"><button data-filter="all" class="filter active" aria-pressed="true">Все варианты</button><button data-filter="pending" class="filter" aria-pressed="false">Не завершены</button><button data-filter="mistakes" class="filter" aria-pressed="false">С ошибками</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Текст или номер варианта" aria-label="Поиск по тексту или номеру варианта"></label></div>
+      <div class="feed-caption"><span id="feed-count" role="status"></span><span id="section-description">Один вариант — одна карточка</span></div>
+      <div id="cards" tabindex="-1"><p>Загрузка заданий…</p></div><button id="back-top" class="button quiet back-top">↑ К началу раздела</button>
+    </section>
+    <footer class="footer"><span>ОГЭ · Однородные члены предложения</span><div><a href="../ODNORODNYE-REPORT.md" target="_blank" rel="noopener">Источники и отчёт ↗</a><a href="../ODNORODNYE-TASK2-REPORT.md" target="_blank" rel="noopener">Задание 2 · отчёт ↗</a><a href="../README.md" target="_blank" rel="noopener">О тренажёре ↗</a></div></footer>
   </main>
-  <footer class="portal-footer"><span>Запятые ОГЭ</span><a href="../README.md">О сайте и источниках ↗</a></footer>
+  <dialog id="journal" aria-labelledby="journal-title"><div class="dialog-head"><div><span class="eyebrow">ИСТОРИЯ ПРАКТИКИ</span><h2 id="journal-title">Журнал ошибок</h2></div><button id="journal-close" class="icon-button" aria-label="Закрыть журнал">×</button></div><p class="muted">Лишний выбор и пропуски сохраняются с контекстом. История остаётся после исправления.</p><div class="journal-tools"><button id="retry-all" class="button primary">Повторить ошибки</button><button id="export-journal" class="button secondary">Скачать журнал</button></div><div id="journal-list"></div></dialog>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">Начать заново?</h2><p>Выбранные ответы, результаты и журнал текущего прохождения будут очищены.</p><div class="dialog-actions"><button id="reset-cancel" class="button secondary">Отмена</button><button id="reset-confirm" class="button danger">Начать заново</button></div></dialog>
+  <noscript>Для работы тренажёра включите JavaScript. Подключение к интернету не требуется.</noscript>
 </body>
 </html>
