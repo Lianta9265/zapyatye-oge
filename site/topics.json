@@ -82,12 +82,21 @@
       "id": "bsp",
       "title": "БСП",
       "path": "topics/bsp.html",
-      "kind": "planned",
+      "kind": "trainer",
       "theme": "sea",
-      "dataset": null,
-      "entry": null,
+      "dataset": "trainers/bsp/data.json",
+      "entry": "trainers/bsp/app.js",
       "progressKey": "zapyatye-oge:bsp:progress:v1",
-      "journalKey": "zapyatye-oge:bsp:errors:v1"
+      "journalKey": "zapyatye-oge:bsp:errors:v1",
+      "caption": "26 карточек",
+      "assets": [
+        "trainers/bsp/core.js",
+        "trainers/bsp/data.js",
+        "trainers/bsp/panel.js",
+        "trainers/bsp/styles.css",
+        "trainers/bsp/bases.js",
+        "BSP-REPORT.md"
+      ]
     },
     {
       "id": "obstoyatelstva",
